@@ -12,7 +12,10 @@ HKUST · CASIA · Wechat AI · MBZUAI · CityU · Peking University<br>
 <sup>†</sup> Equal contribution &nbsp; <sup>*</sup> Corresponding author
 </p>
 <p align="center">
-<a href="https://arxiv.org/abs/2610.09823">Paper</a> ·
+<a href="https://arxiv.org/abs/2610.09823"><img src="https://img.shields.io/badge/arXiv-2610.09823-B31B1B?logo=arxiv&amp;logoColor=white" alt="arXiv: 2610.09823"></a>
+<a href="https://huggingface.co/papers/2610.09823"><img src="https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?logo=huggingface&amp;logoColor=FFD21E" alt="Hugging Face Papers"></a>
+</p>
+<p align="center">
 <a href="data">Dataset</a> ·
 <a href="#leaderboard">Leaderboard</a> ·
 <a href="#quick-start">Quick start</a>
