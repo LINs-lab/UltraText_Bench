@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-08-16T14:39:03Z",
+  "reviewer": "Codex independent content review",
+  "inputs": {
+    "source_sha256": {
+      "data/en_prompts.jsonl": "8e89a96aab4b9bae6a592caddf8262f4874eaa244f5c6b62e59af0b757c4c248",
+      "data/zh_prompts.jsonl": "73d432170a2e8eaba33729941e06862a9481a3e37045289e922575c61fa2bb58"
+    },
+    "metadata_sha256": "8d4f97f4f34046c01e80170d3b794ab046380ef40fd44f8aa8fe2b8e04eb30c0",
+    "plan_ledger_sha256": "fe999c214b41acc50f9a729a0168476f651b2113914781d1a8871827d1fed03e",
+    "content_signoff_sha256": "d943445ebabf3a8c3585395a298b1e831fe3e642c17328d1384f8da03939f055"
+  },
+  "outputs": {
+    "audit_rows.json": "f6b6422a7b2d05880b3eec8bd1ecc1fd1c02f89c5f699777b4e0ef2c73aa7b00",
+    "build/build.md": "9203e42c0553f08538cd0d0607631331065f8970bcb7f0643bc7abe816a65749",
+    "docs/prompt_audit_report.md": "f17e0f10991859dc501bace024312e47ab0958d59a1be5ca9f96a501d01ea86d",
+    "prompts_map.json": "7bfe46c801b992bfffb23e57307e6d178029c540415b16fbebb70386596f0f0e"
+  },
+  "prompt_count": 432
+}

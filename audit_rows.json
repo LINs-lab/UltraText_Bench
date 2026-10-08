@@ -1,0 +1,4322 @@
+[
+  {
+    "pid": "A1_L1_EN_001",
+    "cat": "sign",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "面包店品牌、价目、营业信息及四块文字载体围绕同一场景，内容闭合，未见批量拼接证据。",
+    "suggest": "无需实质修改；发布前仅最终核验 TELCODE 等占位符符合数据集约定，并复核正文与区域标注一致。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A1_L1_EN_002",
+    "cat": "sign",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "雨夜爵士酒吧的演出、特饮、营业规则和年龄限制互相呼应，具有完整的专属场景。",
+    "suggest": "无需实质修改；发布前仅最终核验 SAFE/TELCODE 等占位符符合数据集约定，并复核正文与区域标注一致。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A1_L1_EN_003",
+    "cat": "sign",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "农场摊位的商品、诚信付款说明和采花指引均服务于同一经营场景，未见模板残留。",
+    "suggest": "无需实质修改；发布前仅最终核验 SAFE/TELCODE 等占位符符合数据集约定，并复核正文与区域标注一致。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A1_L2_EN_001",
+    "cat": "sign",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "咖啡店品牌、菜单、营业信息和联系方式均围绕同一场景；信息密度较高及多个类型正确的MAIL/LOC占位符不构成具体错误。",
+    "suggest": "无需实质修改；发布前仅核验MAIL/LOC占位符类型及正文与区域标注一致。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A1_L2_EN_002",
+    "cat": "sign",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "步道距离、熊出没警告、生态说明和游客规则彼此一致，形成完整且专属的导览场景。",
+    "suggest": "无需实质修改；发布前仅最终核验 SAFE/TELCODE 等占位符符合数据集约定，并复核正文与区域标注一致。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A1_L2_EN_003",
+    "cat": "sign",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：将生硬的安全替换词改为同一商业语域下的自然虚构名称，同时保持所有区域中的名称完全一致。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A1_L3_EN_001",
+    "cat": "sign",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "旧QA黑板已替换为市场当日精选；11个文字区域均已同步，未见残余QA、机械重复、数值或方位冲突。",
+    "suggest": "无需实质修改；发布前仅按当前JSONL最终复核正文、gt_regions和stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A1_L3_EN_002",
+    "cat": "sign",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：将停车牌描述中的white balance text改为white text；保留region_9文字和位置，并重算stats。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A1_L3_EN_003",
+    "cat": "sign",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：将设施牌描述改为with universal pictogram icons and English text，将应急牌引导改为In the lower-left area of the concourse, directly above a heavy steel emergency door；保留region_6/7.text和gt_regions.position并重算stats。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A3_L1_EN_001",
+    "cat": "poster",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "爵士海报的阵容、日期、票价与视觉元素均围绕同一活动，细节具体且自洽。",
+    "suggest": "无需实质修改；发布前仅最终核验 SAFE/TELCODE 等占位符符合数据集约定，并复核正文与区域标注一致。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A3_L1_EN_002",
+    "cat": "poster",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "科幻片画面、片名、主创和上映档期形成专属电影海报，未见跨条拼装。",
+    "suggest": "无需实质修改；发布前仅最终核验 SAFE/TELCODE 等占位符符合数据集约定，并复核正文与区域标注一致。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A3_L1_EN_003",
+    "cat": "poster",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "音乐节海报的标题、阵容、日期地点、票价和购票行动均围绕同一活动；艺名与通行证已自然化，年份区与日期区不再重复嵌入。",
+    "suggest": "无需实质修改；发布前核验演出阵容、日期地点、票务金额、LOCBLOCK-SAFE 与二维码行动语句，并复核七个 gt_regions 与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A2_L1_EN_001",
+    "cat": "label",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：将各 Sample 认证替换为语义明确且彼此有区分的虚构认证名，并检查认证与产地描述是否匹配。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A2_L1_EN_002",
+    "cat": "label",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：重写认证名称和说明，使其符合食品标签英语习惯；避免把 Sample 直接嵌入正式认证名。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A2_L1_EN_003",
+    "cat": "label",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：为年代、地区、作者与捐赠来源分别提供自然虚构值，并核对这些信息在正文和展签区域中一致。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A2_L2_EN_001",
+    "cat": "label",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：将region_3及正文统一为Estate Bottled at Chateau Bellavue — Harvest 2016 — Grower Proprietor，并重算stats。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A2_L2_EN_002",
+    "cat": "label",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "Coffee packaging production data, roast date, best-use window and brewing guidance are coherent; the production-data wrapper is now natural and the target text is unchanged.",
+    "suggest": "Wrapper naturalization is complete; only recheck the nine regions, product facts and stats before release.",
+    "priority": "P3"
+  },
+  {
+    "pid": "A2_L2_EN_003",
+    "cat": "label",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：删除孤立编号或补齐完整编号列表，并将警语改写为自然、完整且与产品风险直接相关的句子。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A4_L1_EN_001",
+    "cat": "billboard",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "电子产品清仓价格、优惠期限和门店信息一致，广告内容完整闭合。",
+    "suggest": "无需实质修改；发布前仅最终核验 SAFE/TELCODE 等占位符符合数据集约定，并复核正文与区域标注一致。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A4_L1_EN_002",
+    "cat": "billboard",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "三明治品牌、优惠码、出口位置和早餐促销相互支撑，具有专属商业场景。",
+    "suggest": "无需实质修改；发布前仅最终核验 SAFE/TELCODE 等占位符符合数据集约定，并复核正文与区域标注一致。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A4_L1_EN_003",
+    "cat": "billboard",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "产品功能、语言数量、优惠和联系信息彼此一致；常见科技营销结构本身不足以证明批量复用。",
+    "suggest": "无需实质修改；发布前仅核验产品规格、优惠条件和区域标注。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A4_L2_EN_001",
+    "cat": "billboard",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "房地产项目标题、户型与面积、28幅地块、开放日、配套、区位、销售、优惠和建商页脚相互闭合；八区引导已按 gt_regions.position 统一，旧左右冲突和机械 billboard 套话均已清除。",
+    "suggest": "无需实质修改；发布前核验价格、面积、28幅地块、15000美元优惠、联系与许可占位符，并复核八个 gt_regions 与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A4_L2_EN_002",
+    "cat": "billboard",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：保留七个区域及其方位；仅改写重复的 billboard 载体引入语，使各区句法有区分，不改正文信息与 gt_regions.position。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A4_L2_EN_003",
+    "cat": "billboard",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "诊所品牌、护理团队、服务、新客优惠、营业时间、联系评价与无障碍设施相互闭合；七区引导已按 gt_regions.position 统一，旧横纵方位冲突和机械 billboard 套话均已清除。",
+    "suggest": "无需实质修改；发布前核验350美元优惠、营业时段、评价、联系占位符，并复核七个 gt_regions 与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A4_L3_EN_001",
+    "cat": "billboard",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "车展标题、首发与电动车展示、试驾、日期场馆、票价活动、交通及赞助信息相互闭合；十区引导均与 gt_regions.position 一致，旧空间冲突、错误冠词和机械 billboard 套话均已清除。",
+    "suggest": "无需实质修改；发布前核验车型、10月14日至23日时间线、票价、交通和赞助字段，并复核十个 gt_regions 与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A4_L3_EN_002",
+    "cat": "billboard",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "已将演示式楼盘口径统一为自然虚构项目；项目名、两档价格、设施品牌、开发商及建筑/室内/景观团队均已独立命名，十区文字、位置和统计一致。",
+    "suggest": "无需实质修改；发布前仅最终核验价格、联系占位符、gt_regions与stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A4_L3_EN_003",
+    "cat": "billboard",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "固定QA、IronLangica错词和同构十区骨架均已修复；新版九区文字、位置、促销日期和条款相互一致。",
+    "suggest": "无需实质修改；发布前仅按当前JSONL最终复核正文、gt_regions和stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B1_L1_EN_001",
+    "cat": "article",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "The novel page forms a complete scene and all five region wrappers now use grammatical sentence-internal capitalization.",
+    "suggest": "Wrapper capitalization is corrected; only recheck the five regions and stats before release.",
+    "priority": "P3"
+  },
+  {
+    "pid": "B1_L1_EN_002",
+    "cat": "article",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：为相关文本块选定唯一位置并统一正文与 region position，删除相互竞争的方位词。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B1_L1_EN_003",
+    "cat": "article",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：修复引号开闭关系，并以信纸、批注或邮戳的实际视觉关系重写方位说明，减少套话。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B1_L2_EN_001",
+    "cat": "article",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "主体已统一为市议会批准公共滨水公园扩建，原语义与两处空间冲突均已修复；金额、票数、面积、工期和七区标注一致。",
+    "suggest": "无需实质修改；发布前仅按当前JSONL最终复核正文、gt_regions和stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B1_L2_EN_002",
+    "cat": "article",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：为机构、合作方和项目分别设计自然虚构名，保持缩写和全称一一对应，移除可见 Sample 字样。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B1_L2_EN_003",
+    "cat": "article",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：将店名、人物和奖项改成同一地域语境下的自然虚构名称，并检查称谓在引语和署名中一致。 将冲突块的正文方位统一为 bottom-left，删除互斥方位词，并同步对应 gt_regions.position。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B1_L3_EN_001",
+    "cat": "article",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "Text region脚手架与QA串已移除，缺失区域已补为无障碍测试段；十区文字和位置一致。",
+    "suggest": "无需实质修改；发布前仅按当前JSONL最终复核正文、gt_regions和stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B1_L3_EN_002",
+    "cat": "article",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：将三处引导分别统一为In the middle-left、In the middle-right、Continuing in the middle-right；保留目标文字与gt_regions.position并重算stats。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B1_L3_EN_003",
+    "cat": "article",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：将三处引导分别统一为In the middle-left、In the middle-right、At the bottom-left；保留目标文字与gt_regions.position并重算stats。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B3_L1_EN_001",
+    "cat": "letter",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "The hiking postcard, addresses and date form one coherent message; all four wrappers now use grammatical sentence-internal capitalization.",
+    "suggest": "Wrapper capitalization is corrected; only recheck the four regions and stats before release.",
+    "priority": "P3"
+  },
+  {
+    "pid": "B3_L1_EN_002",
+    "cat": "letter",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：统一为私人明信片语境，将operations paper改为travel note、group headcount改为party size，并按top-right统一冲突块及gt_regions.position。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B3_L1_EN_003",
+    "cat": "letter",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "The 80th-birthday greeting is internally coherent, and its body wrapper now matches middle-center without the former upper-right conflict.",
+    "suggest": "The wrapper position and capitalization fixes are complete; only recheck the four regions and stats before release.",
+    "priority": "P3"
+  },
+  {
+    "pid": "B3_L2_EN_001",
+    "cat": "letter",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：补充自然虚构的研究、奖项和会议名称，并让感谢内容引用一项具体贡献以增强专属性。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B3_L2_EN_002",
+    "cat": "letter",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：统一为家庭赠礼语境，将project table改为gift table，删除机构式称谓，并按bottom-left、top-right统一冲突块及gt_regions.position。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B3_L2_EN_003",
+    "cat": "letter",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：把奖项及展示桌名称改成自然的球队或学校虚构专名，同时保留14号球衣这一专属线索。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B3_L3_EN_001",
+    "cat": "letter",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：将四处引导分别统一为At the top-right、At the top-left、In the middle-left、In the middle-right；保留条款与gt_regions.position并重算stats。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B3_L3_EN_002",
+    "cat": "letter",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：将region_2引导改为At the top-right、region_7改为In the middle-right；保留目标文字与gt_regions.position并重算stats。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B3_L3_EN_003",
+    "cat": "letter",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：将region_6引导改为In the middle-right section, the letter body；保留配置文字与gt_regions.position，同步prompt并重算stats。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B2_L1_EN_001",
+    "cat": "newspaper",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "The newspaper date, headline and story remain coherent, and all five wrappers now use grammatical sentence-internal capitalization.",
+    "suggest": "The wrapper cleanup is complete; only recheck the Friday date, five regions and stats before release.",
+    "priority": "P3"
+  },
+  {
+    "pid": "B2_L1_EN_002",
+    "cat": "newspaper",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：将region_3引导改为In the middle-center, the lede；保留目标文字与gt_regions.position，同步prompt并重算stats。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B2_L1_EN_003",
+    "cat": "newspaper",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "The Sunday edition remains internally consistent, and its five text blocks now use natural top-, middle- and bottom-center placement cues.",
+    "suggest": "The wrapper-position rewrite is complete; only recheck the Sunday date, five regions and stats before release.",
+    "priority": "P3"
+  },
+  {
+    "pid": "B2_L2_EN_001",
+    "cat": "newspaper",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "整版已改回真实城市新闻，日期修为Thursday, April 9, 2026，Sample/Layout污染和原空间冲突均已清除；八区一致。",
+    "suggest": "无需实质修改；发布前仅按当前JSONL最终复核正文、gt_regions和stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B2_L2_EN_002",
+    "cat": "newspaper",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "整版已重写为剧院保育报道，日期修为Saturday, March 21, 2026，model/mock污染和原空间冲突均已清除；七区一致。",
+    "suggest": "无需实质修改；发布前仅按当前JSONL最终复核正文、gt_regions和stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B2_L2_EN_003",
+    "cat": "newspaper",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "整版已重写为真实风灾报道，日期修为Sunday, May 17, 2026，exhibit/mock/prop/model污染均已清除；七区一致。",
+    "suggest": "无需实质修改；发布前仅按当前JSONL最终复核正文、gt_regions和stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B2_L3_EN_001",
+    "cat": "newspaper",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "The climate front page, secondary story and service boxes form one newspaper layout; all ten wrappers now match their region positions.",
+    "suggest": "The ten-region wrapper rewrite is complete; only recheck dates, figures, regions and stats before release.",
+    "priority": "P3"
+  },
+  {
+    "pid": "B2_L3_EN_002",
+    "cat": "newspaper",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "The bridge and arts stories form one coherent newspaper page; wrapper capitalization and the teasers subject-verb agreement are corrected.",
+    "suggest": "The wrapper grammar cleanup is complete; only recheck dates, figures, ten regions and stats before release.",
+    "priority": "P3"
+  },
+  {
+    "pid": "B2_L3_EN_003",
+    "cat": "newspaper",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "日期、QA区和Text region骨架已修复，整版已统一为自然国际新闻；九区文字与位置一致，94国导视标准及12%、4,000万人次、$412航空数据口径闭合。",
+    "suggest": "无需实质修改；发布前仅最终核验刊期、导视实施节点、航空统计口径、gt_regions与stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B4_L1_EN_001",
+    "cat": "resume",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：采用一套自然且可辨认的虚构技术命名规则，确保技能类别、项目描述和工具名称语义相符。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B4_L1_EN_002",
+    "cat": "resume",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "执照、临床专长和教育训练已压缩为简洁CV措辞；临床心理师身份、SAFE执照、授权地远程服务边界及2009至2014训练时间线仍闭合，四区总长度已回到L1范围。",
+    "suggest": "无需实质修改；发布前核验虚构执照、服务边界、教育时间线，并复核四个 gt_regions 与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B4_L1_EN_003",
+    "cat": "resume",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：逐项按营销业务含义重写被替换术语，明确 pipeline、受众增长和奖项各自指代。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B4_L2_EN_001",
+    "cat": "resume",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：为公司和工具设计彼此区分的自然虚构名称，并核对每项工具确实支持所述 UX 工作。 将冲突块的正文方位统一为 top-center，删除互斥方位词，并同步对应 gt_regions.position。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B4_L2_EN_002",
+    "cat": "resume",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：保留虚构原则，同时用符合工程行业命名习惯的不同名称替换，并核对规范与职责对应。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B4_L2_EN_003",
+    "cat": "resume",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：按平台、云服务和会议三种实体分别设计命名风格，避免共同使用同一 Sample/Safe 构词。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B4_L3_EN_001",
+    "cat": "resume",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "QA 缺失经历、履历时间线及方位冲突均已修复；九区一致，技能与三段经历和项目相互支持，成果指标口径闭合。",
+    "suggest": "无需实质修改；发布前核验任职时间线、成果数字、虚构资格名称、`gt_regions` 与 `stats`。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B4_L3_EN_002",
+    "cat": "resume",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "跨职业 QA、缺失的 Senior PM 经历、含混时间边界及两处方位冲突均已修复；四段职业经历与全日制 M.B.A. 连续，技能和职业活动相互支持，六组成果指标口径闭合。",
+    "suggest": "无需实质修改；发布前复核任职与教育时间线、成果分母和计算、虚构实体名称、九个 `gt_regions` 与 `stats`。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B4_L3_EN_003",
+    "cat": "resume",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "跨职业 QA、缺失的当前职位、含混任职边界和四处方位冲突均已修复；三段经历覆盖 2012–2026，五个项目的年份、本人角色及总建设价值与经历相符，成果、公开标准和虚构资质边界清晰。",
+    "suggest": "无需实质修改；发布前复核任职及项目时间线、成果计算、执业辖区与有效期、项目采用的标准版本、九个 `gt_regions` 与 `stats`。",
+    "priority": "P3"
+  },
+  {
+    "pid": "C1_L1_EN_001",
+    "cat": "menu",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：将冲突块的正文方位统一为 middle-right，删除互斥方位词，并同步对应 gt_regions.position。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "C1_L1_EN_002",
+    "cat": "menu",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：将冲突块的正文方位统一为 middle-left，删除互斥方位词，并同步对应 gt_regions.position。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "C1_L1_EN_003",
+    "cat": "menu",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "The cafe bowls, toasts, smoothies and footer form a complete menu; all five wrappers match their positions and the former A LED article error is gone.",
+    "suggest": "The menu wrapper and article fixes are complete; only recheck prices, five regions and stats before release.",
+    "priority": "P3"
+  },
+  {
+    "pid": "C1_L2_EN_001",
+    "cat": "menu",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "The Italian menu is coherent from antipasti through beverages, and the pasta, mains, desserts and beverage wrappers now match their annotated positions.",
+    "suggest": "The position-conflict cleanup is complete; only recheck prices, eight regions and stats before release.",
+    "priority": "P3"
+  },
+  {
+    "pid": "C1_L2_EN_002",
+    "cat": "menu",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：将冲突块的正文方位统一为 middle-left，删除互斥方位词，并同步对应 gt_regions.position。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "C1_L2_EN_003",
+    "cat": "menu",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "The weekend-brunch identity, dishes and service details remain distinct and coherent; all wrapper capitalization is now grammatical.",
+    "suggest": "The wrapper cleanup is complete; only recheck recipes, allergens, seven regions and stats before release.",
+    "priority": "P3"
+  },
+  {
+    "pid": "C1_L3_EN_001",
+    "cat": "menu",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "QA 覆盖的 Primi 区和相邻 L2 菜单扩写问题均已修复；新餐厅身份、十区菜单结构、价格梯度、酒精与零酒精分类、品鉴套餐及安全说明彼此闭合，未见旧品牌或模板污染。",
+    "suggest": "无需实质修改；发布前复核最终配方与价格、过敏原及交叉接触声明、生食和酒精规则、十个 `gt_regions` 与 `stats`。",
+    "priority": "P3"
+  },
+  {
+    "pid": "C1_L3_EN_002",
+    "cat": "menu",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "QA 覆盖的熟制海鲜主菜区和相邻 L2 菜单扩写问题均已修复；新餐厅身份、九区菜单结构、价格梯度、饮品边界、市场价、过敏原、生食及采购说明相互闭合，未见旧品牌或模板污染。",
+    "suggest": "无需实质修改；发布前复核每日品种与来源、最终配方及价格、过敏原和交叉接触声明、生食及酒精规则、九个 `gt_regions` 与 `stats`。",
+    "priority": "P3"
+  },
+  {
+    "pid": "C1_L3_EN_003",
+    "cat": "menu",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "固定 QA 和区域骨架污染、IronLangic 伪词、肉类/拼盘口径、饮品规模措辞、售罄规则及四处方位冲突均已修复；烟熏肉、拼盘、三明治、配菜、酱料、甜点和服务信息完整且价格关系闭合。",
+    "suggest": "无需实质修改；发布前复核最终配方与份量、价格和供应状态、过敏原及交叉接触说明、营业与 catering 容量、十个 `gt_regions` 与 `stats`。",
+    "priority": "P3"
+  },
+  {
+    "pid": "C3_L1_EN_001",
+    "cat": "invoice",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "The electrical invoice items and totals are coherent; its five wrappers now match top-left/right, middle-center and bottom-center, with article and agreement errors removed.",
+    "suggest": "The invoice wrapper rewrite is complete; only recheck amounts, five regions and stats before release.",
+    "priority": "P3"
+  },
+  {
+    "pid": "C3_L1_EN_002",
+    "cat": "invoice",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "可见项目与小计、10% 折扣及应付额已经闭合；服务内容、付款期限、公司和支付字段均已明确，项目表方位与标注一致，未见残余硬数字或语义矛盾。",
+    "suggest": "无需实质修改；发布前复核服务完成记录、折扣与税务适用性、付款句柄、五个 `gt_regions` 和 `stats`。",
+    "priority": "P3"
+  },
+  {
+    "pid": "C3_L1_EN_003",
+    "cat": "invoice",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "三项交付与小计、50% 订金及余额已经闭合；供应商、客户、交付范围、付款期限和支付引用均已统一，项目表方位与标注一致，未见残余硬数字或语义矛盾。",
+    "suggest": "无需实质修改；发布前复核交付验收、订金记录、税务适用性、付款引用、五个 `gt_regions` 和 `stats`。",
+    "priority": "P3"
+  },
+  {
+    "pid": "C3_L2_EN_001",
+    "cat": "invoice",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "行项目、小计、折扣舍入、税额及余额全部闭合；服务期、供应商和客户、付款参考、可选卡费及逾期规则均已明确，发票详情方位与标注一致，未见残余重复或硬矛盾。",
+    "suggest": "无需实质修改；发布前复核 SOW 与差旅凭证、折扣适用范围、税务与卡费规则、付款引用、八个 `gt_regions` 和 `stats`。",
+    "priority": "P3"
+  },
+  {
+    "pid": "C3_L2_EN_002",
+    "cat": "invoice",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "The vehicle invoice has coherent labor, parts, totals and payment details; all seven wrappers now match their annotated positions.",
+    "suggest": "The invoice wrapper rewrite is complete; only recheck identifiers, amounts, seven regions and stats before release.",
+    "priority": "P3"
+  },
+  {
+    "pid": "C3_L2_EN_003",
+    "cat": "invoice",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "The event invoice services, totals and balance remain coherent; all eight wrappers are natural, position-aligned and grammatical.",
+    "suggest": "The invoice wrapper rewrite is complete; only recheck amounts, eight regions and stats before release.",
+    "priority": "P3"
+  },
+  {
+    "pid": "C3_L3_EN_001",
+    "cat": "invoice",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "专业服务、固定交付物和报销费用均可逐项复算；服务期、五月 retainer、零税额、付款方式、卡费和逾期起点互相一致，QA、重复字段及方位冲突已清除。",
+    "suggest": "无需实质修改；发布前复核 SOW 计费边界、十个 `gt_regions`、完整金额链和 `stats`。",
+    "priority": "P3"
+  },
+  {
+    "pid": "C3_L3_EN_002",
+    "cat": "invoice",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "独立的充电系统维修工单包含可复算工时、零件、税额和支付记录；诊断前后电压、路试里程、保养阈值及两档保修日期/里程均闭合，已清除跨级复用、QA、损坏占位符和方位冲突。",
+    "suggest": "无需实质修改；发布前核验当地税基、固定 shop fee 与书面保修政策，并复核九个 `gt_regions`、金额链和 `stats`。",
+    "priority": "P3"
+  },
+  {
+    "pid": "C3_L3_EN_003",
+    "cat": "invoice",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "独立的活动后结算单包含可复算的 Food、零酒精饮品、人员与附加项目；服务费和应税基数明示，三笔付款精确闭合，日期、支付方式和十区方位一致，已清除跨级复用及 QA 污染。",
+    "suggest": "无需实质修改；发布前核验当地应税范围、服务费和卡费披露规则，并复核十个 `gt_regions`、完整金额链和 `stats`。",
+    "priority": "P3"
+  },
+  {
+    "pid": "C2_L1_EN_001",
+    "cat": "receipt",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "The receipt items, tax and total are arithmetically closed, and all four wrappers now use grammatical sentence-internal capitalization.",
+    "suggest": "The wrapper cleanup is complete; only recheck amounts, four regions and stats before release.",
+    "priority": "P3"
+  },
+  {
+    "pid": "C2_L1_EN_002",
+    "cat": "receipt",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "The cafe receipt items, tax, tip and total are coherent; the totals wrapper now matches middle-center and capitalization is corrected.",
+    "suggest": "The position and capitalization fixes are complete; only recheck amounts, five regions and stats before release.",
+    "priority": "P3"
+  },
+  {
+    "pid": "C2_L1_EN_003",
+    "cat": "receipt",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "The retail receipt items, cash and change are coherent; the transaction wrapper now matches middle-center without a left-margin conflict.",
+    "suggest": "The position and capitalization fixes are complete; only recheck amounts, four regions and stats before release.",
+    "priority": "P3"
+  },
+  {
+    "pid": "C2_L2_EN_001",
+    "cat": "receipt",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：将冲突块的正文方位统一为 middle-left、bottom-left、bottom-center，删除互斥方位词，并同步对应 gt_regions.position。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "C2_L2_EN_002",
+    "cat": "receipt",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "The receipt purchase, payment and cash-back chain remains coherent, and all seven wrappers now use grammatical sentence-internal capitalization.",
+    "suggest": "The wrapper cleanup is complete; only recheck amounts, seven regions and stats before release.",
+    "priority": "P3"
+  },
+  {
+    "pid": "C2_L2_EN_003",
+    "cat": "receipt",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "十项商品的小计、5% 折扣、袋子抵扣、零税额、已付总额和积分规则均可逐项复算；支付余额、完整日期和六区方位一致，旧数字矛盾及局部模板污染已清除。",
+    "suggest": "无需实质修改；发布前核验当地杂货税务与会员积分规则，并复核六个 `gt_regions`、金额链和 `stats`。",
+    "priority": "P3"
+  },
+  {
+    "pid": "C2_L3_EN_001",
+    "cat": "receipt",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "多道菜与酒精/零酒精饮品均有逐项价格；Food、Beverage、小计、服务费和已付总额完整闭合，日期与营业规则、服务费说明、支付状态、饮酒提示及十区方位一致。",
+    "suggest": "无需实质修改；发布前核验当地酒类销售、税务和服务费披露规则，并复核十个 `gt_regions`、金额链和 `stats`。",
+    "priority": "P3"
+  },
+  {
+    "pid": "C2_L3_EN_002",
+    "cat": "receipt",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "餐厅收据现含可复算的 starters、sushi/sashimi、entrées、beverages 和 desserts；小计、税、含 gratuity 的服务费及已付总额闭合，日期、支付状态、生食/酒精提示和十区方位一致。",
+    "suggest": "无需实质修改；发布前核验当地生食、酒类销售、税务和服务费披露规则，并复核十个 `gt_regions`、金额链和 `stats`。",
+    "priority": "P3"
+  },
+  {
+    "pid": "C2_L3_EN_003",
+    "cat": "receipt",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "牛排馆收据现含可复算的 starters、steaks/mains、sides、desserts 和 beverages；重复 digestif 已消除，小计、税、含 gratuity 的服务费及已付总额闭合，日期、营业时段、酒精提示和十区方位一致。",
+    "suggest": "无需实质修改；发布前核验当地酒类销售、税务和服务费披露规则，并复核十个 `gt_regions`、金额链和 `stats`。",
+    "priority": "P3"
+  },
+  {
+    "pid": "C4_L1_EN_001",
+    "cat": "product_pkg",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "海盐黑胡椒口味与四项配料一致，净重、每份重量和约五份/包可复算；无基准减脂声明、悬空认证及所有权元词已清除，四区文字和方位闭合。",
+    "suggest": "无需实质修改；发布前核验 Gluten Free/Vegan 声明及实际营养标签，并复核四个 `gt_regions` 和 `stats`。",
+    "priority": "P3"
+  },
+  {
+    "pid": "C4_L1_EN_002",
+    "cat": "product_pkg",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "The shampoo claims, ingredients, directions and manufacturer details are coherent, and all five wrappers now use grammatical capitalization.",
+    "suggest": "The wrapper cleanup is complete; only recheck product facts, five regions and stats before release.",
+    "priority": "P3"
+  },
+  {
+    "pid": "C4_L1_EN_003",
+    "cat": "product_pkg",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "三项配料与 72% 成品 cacao content 的口径一致，重量、片数、工艺和储存温度可理解；无依据的认证/来源主张、Sample 元词和方位冲突已清除。",
+    "suggest": "无需实质修改；发布前核验实际 cacao content、过敏原交叉接触和工艺时长，并复核四个 `gt_regions` 和 `stats`。",
+    "priority": "P3"
+  },
+  {
+    "pid": "C4_L2_EN_001",
+    "cat": "product_pkg",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "The coffee flavor, pack, brewing and ingredient details are coherent; the tasting-notes wrapper now matches middle-left and capitalization is corrected.",
+    "suggest": "The position and capitalization fixes are complete; only recheck seven regions and stats before release.",
+    "priority": "P3"
+  },
+  {
+    "pid": "C4_L2_EN_002",
+    "cat": "product_pkg",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：将冲突块的正文方位统一为 middle-left、middle-center、bottom-center，删除互斥方位词，并同步对应 gt_regions.position。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "C4_L2_EN_003",
+    "cat": "product_pkg",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "The cereal nutrition, ingredients and allergen guidance are coherent, and all six wrappers now use grammatical sentence-internal capitalization.",
+    "suggest": "The wrapper cleanup is complete; only recheck product facts, six regions and stats before release.",
+    "priority": "P3"
+  },
+  {
+    "pid": "C4_L3_EN_001",
+    "cat": "product_pkg",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "九区护肤霜包装现含浓度说明、完整 INCI、渐进用法、retinol 警示、储存/PAO/批次和制造商信息；无依据植物提取物、认证及伪临床结果已清除，容量和方位一致。",
+    "suggest": "无需实质修改；发布前由配方与法规人员核验真实 INCI 顺序、浓度、PAO、警示及当地标签要求，并复核九个 `gt_regions` 和 `stats`。",
+    "priority": "P3"
+  },
+  {
+    "pid": "C4_L3_EN_002",
+    "cat": "product_pkg",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "九区蛋白粉标签以 34 g 单一份量统一正面卖点、Nutrition Facts、用法、净重和约 67 份；蛋白/宏量营养、配料、过敏原、批次及质量信息闭合，QA、错误纯度和伪认证已清除。",
+    "suggest": "无需实质修改；发布前由食品法规人员核验真实营养分析、DV、配料顺序、设施过敏原、稳定性和批次记录，并复核九个 `gt_regions` 和 `stats`。",
+    "priority": "P3"
+  },
+  {
+    "pid": "C4_L3_EN_003",
+    "cat": "product_pkg",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "九区冻饺包装现含从冷冻状态烹饪及中心温度、安全蘸酱说明、配料、过敏原、营养、储存和公司信息；净重/数量/份量闭合，gluten 与虾含量误导、QA 和元词已清除。",
+    "suggest": "无需实质修改；发布前由食品法规人员核验实际烹饪时间/中心温度、配料顺序、营养分析、过敏原设施和生产控制，并复核九个 `gt_regions` 和 `stats`。",
+    "priority": "P3"
+  },
+  {
+    "pid": "D1_L1_EN_001",
+    "cat": "webpage",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "The 404 message, search, links and support path form a complete error page; all five wrappers now match middle- or bottom-center and use correct articles.",
+    "suggest": "The error-page wrapper rewrite is complete; only recheck five regions and stats before release.",
+    "priority": "P3"
+  },
+  {
+    "pid": "D1_L1_EN_002",
+    "cat": "webpage",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "The 5xx response, support and error details are coherent; navigation is restored to top-center and the remaining wrappers match their annotated positions.",
+    "suggest": "The wrapper ordering and position fixes are complete; only recheck five regions and stats before release.",
+    "priority": "P3"
+  },
+  {
+    "pid": "D1_L1_EN_003",
+    "cat": "webpage",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "The developer 404 explanation, navigation and request ID are coherent; body and CTA wrappers now match middle- and bottom-center without right-column conflicts.",
+    "suggest": "The error-page wrapper rewrite is complete; only recheck five regions and stats before release.",
+    "priority": "P3"
+  },
+  {
+    "pid": "D1_L2_EN_001",
+    "cat": "webpage",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "All SaaS modules support one product page, and the social-proof wrapper now matches middle-center while sentence-internal capitalization is corrected.",
+    "suggest": "The wrapper position and capitalization fixes are complete; only recheck seven regions and stats before release.",
+    "priority": "P3"
+  },
+  {
+    "pid": "D1_L2_EN_002",
+    "cat": "webpage",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "The mission, team, timeline and contact sections form one About page; the team wrapper now matches middle-right and capitalization is corrected.",
+    "suggest": "The wrapper position and capitalization fixes are complete; only recheck seven regions and stats before release.",
+    "priority": "P3"
+  },
+  {
+    "pid": "D1_L2_EN_003",
+    "cat": "webpage",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "The database benefits, quickstart, proof and pricing are coherent; their wrappers now match middle-center, middle-right and bottom-left respectively.",
+    "suggest": "The wrapper-position cleanup is complete; only recheck prices, seven regions and stats before release.",
+    "priority": "P3"
+  },
+  {
+    "pid": "D1_L3_EN_001",
+    "cat": "webpage",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "技术出版首页的 featured 标题、metadata、方法摘要、三框架结论与 benchmark 文件一致；sidebar、newsletter、About 和 footer 各自完整，无来源流量数据、QA、元词和方位冲突已清除。",
+    "suggest": "无需实质修改；发布前核验 benchmark 原始文件、编辑/隐私政策、订阅 consent 和站点技术栈，并复核九个 `gt_regions` 和 `stats`。",
+    "priority": "P3"
+  },
+  {
+    "pid": "D1_L3_EN_002",
+    "cat": "webpage",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "旅行首页的检索条件、示例房价、固定日期套餐、支持渠道和页脚已围绕同一预订流程闭合；14晚按 3+4+4+3 分配，套餐价格口径、包含项、排除项和截止时区明确，无 QA、无来源比较性宣称或硬方位冲突。",
+    "suggest": "无需实质修改；发布前核验实际库存与最终价格、供应商和退改条款、截止时间、支持渠道及隐私政策，并复核九个 `gt_regions` 和 `stats`。",
+    "priority": "P3"
+  },
+  {
+    "pid": "D1_L3_EN_003",
+    "cat": "webpage",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "健身规划首页的功能、价格、示例工作流、下载兼容性、数据控制和安全边界相互支撑；年付相对十二次月付的节省额与比例闭合，学生折扣适用方案明确，无 QA、伪评价、无来源背书或硬方位冲突。",
+    "suggest": "无需实质修改；发布前核验商店兼容性、设备连接和权限、订阅税费与续订规则、学生资格、隐私与数据控制及健身安全说明，并复核八个 `gt_regions` 和 `stats`。",
+    "priority": "P3"
+  },
+  {
+    "pid": "D3_L1_EN_001",
+    "cat": "social_media",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：删除重复方位短语，仅保留一次准确定位，并检查 region position 与正文一致。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "D3_L1_EN_002",
+    "cat": "social_media",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：替换生硬专名，修正主谓一致和冠词用法，使店名、作者名和评论语气自然。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "D3_L1_EN_003",
+    "cat": "social_media",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：合并为唯一方位表达，删除同义重复，并复核该文本块的实际布局位置。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "D3_L2_EN_001",
+    "cat": "social_media",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：为漏标话题补上 #，并把各区块说明改写成自然社交媒体页面叙述。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "D3_L2_EN_002",
+    "cat": "social_media",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "The fitness post now uses a natural performance-coaching scenario, and 200 g protein, 220 g carbohydrate and 80 g fat close exactly to 2,400 kcal.",
+    "suggest": "The production-language and macro corrections are complete; only recheck six regions, arithmetic and stats before release.",
+    "priority": "P3"
+  },
+  {
+    "pid": "D3_L2_EN_003",
+    "cat": "social_media",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "The AtlasDB 3.0 launch, founder identity, customers, proof and reactions form one natural release post with normalized STAFF and CTO placeholders.",
+    "suggest": "The SampleDB/demo naturalization is complete; only recheck seven regions, launch figures and stats before release.",
+    "priority": "P3"
+  },
+  {
+    "pid": "D3_L3_EN_001",
+    "cat": "social_media",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "运动品牌周年帖以1976年6月7日至2026年6月7日闭合50周年，LoopGrid始终指向outsole；主帖、三条回复、午间档案线程、披露赞助的引用帖和14:00统一快照时间顺序一致，互动量级合理，无QA、区域骨架、无基准涨幅、未披露背书或个人位置信息。",
+    "suggest": "无需实质修改；发布前核验档案和产品事实、互动快照时间、赞助披露、图片替代文本及社区规则，并复核八个 `gt_regions` 和 `stats`。",
+    "priority": "P3"
+  },
+  {
+    "pid": "D3_L3_EN_002",
+    "cat": "social_media",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "展览设计项目明确为16周中的第12周，材料筛选、版式、修订、预算和后四周交付形成闭环；6月15日发布晚于已完成的Week 12，评论及17:00互动快照时间一致，无QA、健身备赛换皮话术、伪资质、教练招募或区域骨架。",
+    "suggest": "无需实质修改；发布前核验项目日期、预算、材料与制作方披露、无障碍交付及互动快照，并复核八个 `gt_regions` 和 `stats`。",
+    "priority": "P3"
+  },
+  {
+    "pid": "D3_L3_EN_003",
+    "cat": "social_media",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "铁路开通线程把时刻、里程、容量、票价、建设成本和来源与2028预测明确分层；847/900、880公里/3小时40分、年座位数与载客率、4.20百万旅次构成、18%/60%转移比例及249,216吨CO2e均可复算，互动与实际到达时间线成立，无QA、Sample/mock制作元词或未注明预测。",
+    "suggest": "无需实质修改；发布前核验运营方公告、票价和退改规则、班次与运能、需求模型、排放因子和生命周期边界，并复核八个 `gt_regions` 和 `stats`。",
+    "priority": "P3"
+  },
+  {
+    "pid": "D2_L1_EN_001",
+    "cat": "slide",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "The AI presentation title, speaker, schedule and outline form one coherent slide, and all four wrappers now use grammatical capitalization.",
+    "suggest": "The wrapper cleanup is complete; only recheck four regions and stats before release.",
+    "priority": "P3"
+  },
+  {
+    "pid": "D2_L1_EN_002",
+    "cat": "slide",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "Meridian Technologies 季度复盘页明确区分 Q4 实绩与 FY2026 指引，收入、利润率、ARR、现金、招聘和投资指标各有用途，旧 QA 与演示制作词已清除。",
+    "suggest": "无需实质修改；发布前核验讲者授权、Q4 财务口径、FY2026 指引依据及四个 gt_regions 与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "D2_L1_EN_003",
+    "cat": "slide",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "The sustainability title, speaker and facts form one coherent slide, and the affected wrappers now use grammatical capitalization.",
+    "suggest": "The wrapper cleanup is complete; only recheck four regions and stats before release.",
+    "priority": "P3"
+  },
+  {
+    "pid": "D2_L2_EN_001",
+    "cat": "slide",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "The CSAT, churn, NPS, support and recommendations remain coherent, and all affected slide wrappers now use grammatical capitalization.",
+    "suggest": "The wrapper cleanup is complete; only recheck figures, seven regions and stats before release.",
+    "priority": "P3"
+  },
+  {
+    "pid": "D2_L2_EN_002",
+    "cat": "slide",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：将冲突块的正文方位统一为 middle-right，删除互斥方位词，并同步对应 gt_regions.position。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "D2_L2_EN_003",
+    "cat": "slide",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "Prismflow 投资者更新将增长、留存、活跃团队、商业化与里程碑分区呈现，平均会话时长仅保留在总览区，旧 QA、Sample 和重复指标均已清除。",
+    "suggest": "无需实质修改；发布前核验 MAU/DAU、留存 cohort、收入与 ARR 口径、估值目标、七个 gt_regions 与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "D2_L3_EN_001",
+    "cat": "slide",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "基础设施决策页以同一五年工作负载逐项列出云、本地和混合TCO，三组成本均精确加总；混合方案相对云端节省$1.50M/18.8%/年均$300K、相对本地节省$0.60M/8.5%，65/35基线分工、±15%敏感性和九个月交付窗口明确，无QA、无来源性能数字或方位冲突。",
+    "suggest": "无需实质修改；发布前核验工作负载预测、供应商报价、人员/迁移/网络/机房成本、敏感性模型、合规边界和交付日期，并复核八个 `gt_regions` 和 `stats`。",
+    "priority": "P3"
+  },
+  {
+    "pid": "D2_L3_EN_002",
+    "cat": "slide",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "混合办公决策页区分远程与在场工作的收益和风险，以1,200人/720工位基线闭合3,300 desk-days/周、660/日和60工位缓冲；一次性预算组件与支出门均合计$3.40M，试点采用团队级随机、基线比较、预设门槛和聚合数据，并明确按任务资格、独立合理便利流程、同一绩效标准及隐私边界，无QA、无未经限定的历史因果数字或方位冲突。",
+    "suggest": "无需实质修改；发布前核验人员与岗位基线、团队随机化和样本量、工位预订峰值、预算报价、非劣效门槛、公平/合理便利/隐私审查及协议链接，并复核八个 `gt_regions` 和 `stats`。",
+    "priority": "P3"
+  },
+  {
+    "pid": "D2_L3_EN_003",
+    "cat": "slide",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "同一百辆 Class 8 区域车队、同一路线/载荷和45.0M五年英里基线下，BEV与FCEV的表后电量、氢耗、能源成本、仅能源平价、价格敏感度及同边界能源供应排放均可复算；6.0 MW被明确限定为十小时均匀充电的理论平均下限，完整TCO与制造等排除项对称列出，采购结论受路线适配和后续审查约束，无QA、无无来源市场预测、绝对化性能主张或方位冲突。",
+    "suggest": "无需实质修改；发布前以供应商报价、本地电价/氢价、经审计同边界排放因子和路线遥测替换示例输入，工程核定接入容量，并完成车辆、基础设施、维护、安全、人员、社区影响和全生命周期TCO审查；复核八个 `gt_regions` 和 `stats`。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E1_L1_EN_001",
+    "cat": "schedule",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "周会固定为10:00–11:30，六项议程20+15+10+20+15+10恰为90分钟；地点、参会角色、轮值主持、会后纪要和日历变更联系人围绕同一可执行会议安排，五区方位均与标注一致。",
+    "suggest": "无需实质修改；发布前仅核验办公室节假日或临时改期规则、会议室可用性、议程负责人、纪要时限和 `STAFF-SAFE` 联系人，并复核五个 `gt_regions` 和 `stats`。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E1_L1_EN_002",
+    "cat": "schedule",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "The weekly class schedule remains chronologically and spatially coherent, and the two affected wrappers now use grammatical capitalization.",
+    "suggest": "The wrapper cleanup is complete; only recheck five regions, scheduling facts and stats before release.",
+    "priority": "P3"
+  },
+  {
+    "pid": "E1_L1_EN_003",
+    "cat": "schedule",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "The appointment date, duration, arrival and cancellation rules remain coherent, and the three affected wrappers now use grammatical capitalization.",
+    "suggest": "The wrapper cleanup is complete; only recheck four regions, appointment facts and stats before release.",
+    "priority": "P3"
+  },
+  {
+    "pid": "E1_L2_EN_001",
+    "cat": "schedule",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "The school-day timing remains closed from 8:00 to 15:25, and the five affected wrappers now use grammatical capitalization.",
+    "suggest": "The wrapper cleanup is complete; only recheck nine regions, timing and stats before release.",
+    "priority": "P3"
+  },
+  {
+    "pid": "E1_L2_EN_002",
+    "cat": "schedule",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "The weekly fitness schedule and pricing remain coherent, and the three affected wrappers now use grammatical capitalization.",
+    "suggest": "The wrapper cleanup is complete; only recheck six regions, scheduling facts and stats before release.",
+    "priority": "P3"
+  },
+  {
+    "pid": "E1_L2_EN_003",
+    "cat": "schedule",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "The Thursday class schedule remains chronological and position-aligned, and the affected wrapper now uses grammatical capitalization.",
+    "suggest": "The wrapper cleanup is complete; only recheck seven regions, timing and stats before release.",
+    "priority": "P3"
+  },
+  {
+    "pid": "E1_L3_EN_001",
+    "cat": "schedule",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "三日日期分别为Friday、Saturday、Sunday，Day 1至Day 3时段连续且无重叠；12组演示按每组4分钟加1分钟换场合计60分钟，全会票相对三张单日票节省$290/24.5%，10人以上标准全会票15%折后$760.75，适用范围和不叠加规则明确；QA、Sample制作元词及方位冲突均已清除。",
+    "suggest": "无需实质修改；发布前核验讲者、会场容量、并行场次、票价税费、取消转让、学生资格、团体折扣、虚拟回看期限、交通住宿和无障碍信息，并复核十个 `gt_regions` 与 `stats`。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E1_L3_EN_002",
+    "cat": "schedule",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "2026年10月22日至23日分别为Thursday和Friday，两天议程连续；3:00–5:00工作坊完整覆盖两小时。两张单日票$1,790，全会票节省$295/约16.5%；五人以上全会票20%折后每人$1,196、五人$5,980，票种权益和不叠加边界明确；QA、重复赞助和方位冲突归零。",
+    "suggest": "无需实质修改；发布前核验讲者、会场容量、餐饮与录播权益、团体折扣、虚拟票范围、报名/取消规则和赞助信息，并复核九个 `gt_regions` 与 `stats`。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E1_L3_EN_003",
+    "cat": "schedule",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "2026年11月5日至7日分别为Thursday、Friday和Saturday，三天时段和注册截止星期均可核验；Day 1奖项六人×15分钟=90分钟，Day 2交通缓冲及Day 3结束时间闭合。QA已由完整下午议程取代，注册费、容量、取消、无障碍和证书学时边界明确，九区方位一致。",
+    "suggest": "无需实质修改；发布前核验讲者、工作坊和参访容量、票价/退款/替换规则、虚拟回看、证书学时、交通、场地及无障碍请求，并复核九个 `gt_regions` 与 `stats`。",
+    "priority": "P3"
+  },
+  {
+    "pid": "D4_L1_EN_001",
+    "cat": "dashboard",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "收入渠道金额合计 $284,500，比例四舍五入后合计 100.0%；环比 12.4% 和超目标 $9,500 均闭合，Revenue/AOV/ROAS 定义及绝对更新时间明确，Sample 泛指标已清除。",
+    "suggest": "无需实质修改；发布前核验收入与订单口径、转化率、弃购率、广告支出回报、更新时区，并复核五区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "D4_L1_EN_002",
+    "cat": "dashboard",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "DAU≤WAU≤MAU，12,847/142,000 与 9.0% 一致；平台和地区分布均闭合 100%，日期为相对指标提供锚点，制作词及方位冲突已清除。",
+    "suggest": "无需实质修改；发布前核验活跃用户窗口、留存 cohort、流失率和 NPS 周期、平台及地区分类，并复核五区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "D4_L1_EN_003",
+    "cat": "dashboard",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "总转化 3,132/84,200=3.72%，逐步转化率和最大比例流失均已重算；94% 置信度只触发继续测试而非全量上线，方位与电商语域统一。",
+    "suggest": "无需实质修改；发布前核验漏斗去重口径、调查样本、A/B 主指标、样本量、阈值和收入归因，并复核五区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "D4_L2_EN_001",
+    "cat": "dashboard",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "4 月、5 月实际与 6 月预测合计 $1.24M，达成率 103.3%；pipeline 分项闭合 $3.79M，8,420 单与 $147.27 均价相容，代表配额、产品 100% 及日期成立，actual/forecast 边界与方位统一。",
+    "suggest": "无需实质修改；发布前核验 6 月预测、阶段加权、赢单率与成交额定义、订单预测、配额、Q3 预测、数据源和负责人，并复核七区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "D4_L2_EN_002",
+    "cat": "dashboard",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "May 1–9 到 June 1–9 的 sessions 增长 14.0%；CTR、访客 CVR、CPA、营销效率、渠道收入/支出、视频点击率、重定向分母及预算投影均闭合，严重超预算状态与动作一致。",
+    "suggest": "无需实质修改；发布前核验归因窗口、媒体支出和渠道 ROAS、campaign 分母、预算审批、A/B 指标、创作者披露及邮件同意，并复核七区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "D4_L2_EN_003",
+    "cat": "dashboard",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "234/500GB=46.8%，距 80% 阈值 166GB、按 1.2GB/天约 138 天；3 月 19 日 06:00 至 6 月 9 日 06:00 为 82 天，滚动 90 天内 4 分钟停机对应 99.997%，TLS 到期恰在快照后 89 天。",
+    "suggest": "无需实质修改；发布前核验快照、资源聚合窗、存储增长模型、滚动可用率、证书到期、备份、维护及告警渠道，并复核七区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "D4_L3_EN_001",
+    "cat": "dashboard",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "销售/AOV/毛利、访客来源、漏斗、客户、产品、地域、履约和营销均有分母或加总；产品与地域各闭合 $542,800，渠道支出 $84,200 和归因 $466,040 闭合，并明确归因不可与净销售相加。",
+    "suggest": "无需实质修改；发布前核验销售、访客、漏斗、客户、产品、地域、履约、归因和日期口径，并复核十区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "D4_L3_EN_002",
+    "cat": "dashboard",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "参与、交付模式、项目、预算、内容队列、反馈和 learner-hours 逐项闭合；可访问性区恢复业务内容，所有指标均为 aggregate planning 且明确不用于个人绩效决策。",
+    "suggest": "无需实质修改；发布前核验参与 reconciliation、完成率、交付和可访问性、反馈样本、项目分布、预算、learner-hours 及聚合使用边界，并复核九区、carrier 与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "D4_L3_EN_003",
+    "cat": "dashboard",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "attendance/unique、activity、tasks、seat/room/equipment、H1/H2 及 $2M allocation 均可复算；90,000 独立座位容量与 128,400 总到访定义分离，513,600 明确仅为简单年化而非预测，风险区恢复行动和日期。",
+    "suggest": "无需实质修改；发布前核验到访与座位口径、活动、任务、容量、服务 KPI、H2 需求、预算、风险动作和日期，并复核九区、carrier 与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E3_L1_EN_001",
+    "cat": "certificate",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "成就证书明确系统工程领域、颁发机构、奖项周期、证书编号、准确日期及两名签署人；删除无意义的终身有效期和 Sample 制作词，并统一四区方位。",
+    "suggest": "无需实质修改；发布前核验获奖依据、颁发机构、编号、签署权限、日期及印章，并复核四区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E3_L1_EN_002",
+    "cat": "certificate",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "培训证书将 180 小时授课与 60 小时督导实践闭合为 240 小时，并把 48 个内部训练单元明确为每单元 5 小时；颁发日期、负责人和注册人齐全，且明确不构成专业执照或临床资质，方位冲突已清除。",
+    "suggest": "无需实质修改；发布前核验课程时数、内部训练单元、完成记录、签署权限、证书编号及非执照声明，并复核四区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E3_L1_EN_003",
+    "cat": "certificate",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "一等奖证书明确竞赛、环境科学组别、具体项目、98.4 分的组别最高分口径、区域赛 247 项/62 校范围、日期和签署信息；Sample 制作词和两处方位冲突均已清除。",
+    "suggest": "无需实质修改；发布前核验获奖名次、项目、分数与排名范围、参赛规模、地点、日期及签署权限，并复核四区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E3_L2_EN_001",
+    "cat": "certificate",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "录用池 354/8,421=4.2%，12 名评审与最终一致决定的边界明确；会议和报告日期星期、作者归属、奖项内容及验证链路闭合，Sample/marker 制作词和方位冲突已清除。",
+    "suggest": "无需实质修改；发布前核验投稿与录用池、评审和决策流程、报告场次、会议日期、奖项权益及验证信息，并复核七区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E3_L2_EN_002",
+    "cat": "certificate",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "企业奖项统一为 2025 Contributor of the Year，Q4 上线、8 人辅导、3 项发明披露和 4/4 按批准日期发布的成果口径明确；奖金、假期、停车、年报和晚宴权益自然，日期及方位闭合。",
+    "suggest": "无需实质修改；发布前核验年度成果、奖项权益、停车可用性、签署权限、授奖日期和地点，并复核六区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E3_L2_EN_003",
+    "cat": "certificate",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "2026-04-21 星期正确；后半程 1:45:34 比前半程 1:42:08 慢 3:26，已改为 positive split；平均配速、gun/chip、完赛名次分母和 30,000 完赛者口径闭合，机械 Sample 字段及方位冲突已清除。",
+    "suggest": "无需实质修改；发布前核验分段与总时、配速、名次和组别分母、完赛者规模、路线、赛事条件及验证链接，并复核七区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E3_L3_EN_001",
+    "cat": "certificate",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "院校名、学位、36 学分、论文记录、答辩/终稿/授予时间线与官方验证边界统一；不伪造外部认证，成绩以 transcript 为准；QA、无来源论文数量和空间冲突已清除。",
+    "suggest": "无需实质修改；发布前核验学位与学分、论文记录、答辩和终稿日期、授予权限、签署人、官方记录与验证渠道，并复核八区、carrier 和 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E3_L3_EN_002",
+    "cat": "certificate",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "统一为非执业课程结业证；60 接触小时、58 小时出勤、四项等权成绩 88.5 和 70 分门槛均闭合；日期、留存、补证和公开验证字段完整，QA 与执照监管字段已清除。",
+    "suggest": "无需实质修改；发布前核验课时与出勤、四项成绩及权重、完成门槛、日期、留存补证和公开验证字段，并复核八区、carrier 和 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E3_L3_EN_003",
+    "cat": "certificate",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "竞赛日、开幕活动和颁奖日期拆分；10/13、707 接受分钟、7 次错误×20 和 847 罚时闭合，rank 3 落在 1–4 名金牌区间；A 题 12 分钟支持 first solve，QA、无口径人数和空间/语法问题已清除。",
+    "suggest": "无需实质修改；发布前核验逐题接受时间与错误次数、罚时、排名和奖牌规则、活动日期、队伍名单、官员及验证信息，并复核八区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E2_L1_EN_001",
+    "cat": "form",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "登录页包含邮箱、密码、设备记忆、密码重置、第三方登录、企业SSO、开户注册、条款隐私、帮助和状态入口；开户注册与隐私措辞自然，五区方位均与标注一致。",
+    "suggest": "无需实质修改；发布前核验第三方身份提供商、SSO资格、密码重置、设备记忆、安全与隐私条款、帮助邮箱和状态页，并复核五个 `gt_regions` 与 `stats`。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E2_L1_EN_002",
+    "cat": "form",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "移动登录页的邮箱、密码、生物识别、第三方身份入口、帮助链接和版本信息闭合；按钮区已由left/middle冲突统一为middle-center，四区方位与标注一致。",
+    "suggest": "无需实质修改；发布前核验生物识别可用条件、第三方身份提供商、密码找回、帮助页和版本信息，并复核四个 `gt_regions` 与 `stats`。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E2_L1_EN_003",
+    "cat": "form",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "门户提供欢迎卡、邮箱和会员三种明确入口；免费方案为每设备每日一次30分钟，Premium为激活后连续24小时，会员权益与登录入口相互对应；条款、隐私、支持和VPN限制完整，四区方位一致。",
+    "suggest": "无需实质修改；发布前核验设备识别、付费结算与退款、会员资格、网络速率、隐私和VPN限制，并复核四个 `gt_regions` 与 `stats`。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E2_L2_EN_001",
+    "cat": "form",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "注册页覆盖个人信息、密码与团队规模、角色用途、必要条款同意、可选营销和演示联系、CTA、企业入口及试用结束规则；500+ 分档与企业入口一致，试用不会自动收费，七区方位统一。",
+    "suggest": "无需实质修改；发布前核验试用与收费、密码规则、第三方及 SSO 提供商、条款隐私、营销同意、企业门槛和安全帮助链接，并复核七区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E2_L2_EN_002",
+    "cat": "form",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "订阅页明确周报、工作日提醒和月报的发送频率；内容量随所选频率调整，兴趣为可选，邮件同意与所选频率绑定，隐私政策说明服务商处理并提供确认、频率管理及退订入口。",
+    "suggest": "无需实质修改；发布前核验发送频率、内容量、邮件同意、隐私与服务商处理、确认邮件、频率管理和退订机制，并复核七区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E2_L2_EN_003",
+    "cat": "form",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "搜索、品类与品牌、价格和库存筛选、排序及结果控制围绕同一商品检索页；六块布局引导均与现有 gt_regions.position 一致。",
+    "suggest": "无需实质修改；发布前核验搜索项、筛选组合、排序、结果数量和分页控制，并复核六区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E2_L3_EN_001",
+    "cat": "form",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "三条商品明细合计四件与 $247.94 小计一致；15% 折扣为 $37.19，应付 $210.75，分期与可选积分结果分别闭合；配送、税率、支付、退款和确认邮件边界完整，QA 与空间冲突已清除。",
+    "suggest": "无需实质修改；发布前核验商品数量、小计、折扣、积分、税率、分期、配送时效、支付与退款规则，并复核九区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E2_L3_EN_002",
+    "cat": "form",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "八题连续，Q1–Q6 必答且为不适用场景提供选项，Q7–Q8 与画像及联系字段明确可选；联系许可与回答分离，90 天联系方式和 12 个月原始回答留存边界清楚，抽奖、伪合规、QA 与空间冲突均已清除。",
+    "suggest": "无需实质修改；发布前核验题号、必填与可选、互斥选项、联系许可、留存和删除规则，并复核九区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E2_L3_EN_003",
+    "cat": "form",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "表单统一为虚构招聘场景，岗位职责、薪资、申请截止、面试窗口和状态更新时间完整；学历路径可选且同等实践经验等同评估，证据按公开岗位量表评审，上传、敏感数据、合理便利申请单独分流、访问留存和查删边界闭合。",
+    "suggest": "无需实质修改；发布前核验薪资与地区、申请和面试日期、公平筛选、文件限制、敏感数据、合理便利申请分流、留存及查删渠道，并复核九区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E4_L1_EN_001",
+    "cat": "code",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "移动平均工具已明确为 Python，并把窗口约束统一为 1 至数据长度；正常、零/负、过长及空数据路径均有确定行为，三项示例与实际浮点计算一致，方位和统计闭合。",
+    "suggest": "无需实质修改；发布前运行正常、零窗口、负窗口、过长窗口及空数据测试，并复核类型注解、示例输出、四区和 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E4_L1_EN_002",
+    "cat": "code",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "status 与 commit 均覆盖 middleware、session、providers、oauth2 四个文件；标准上游分支、ahead 计数、双 -m 命令和四文件汇总相互一致。",
+    "suggest": "无需实质修改；发布前核验真实 diffstat、提交哈希、上游分支和提交正文，并复核四区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E4_L1_EN_003",
+    "cat": "code",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "SQL 以固定 UTC as_of、timestamptz 声明和标准 INTERVAL 定义可复现 30 日窗口；UTC 月界、用户全集、别名、上界、执行计划与结果列名一致。",
+    "suggest": "无需实质修改；发布前在 PostgreSQL 核验时区、索引/计划、部分月语义、窗口边界及结果快照，并复核四区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E4_L2_EN_001",
+    "cat": "code",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "The shopping-cart example now imports ROUND_HALF_UP and explicitly applies it to both item subtotals and tax, preserving the verified total of 54.35.",
+    "suggest": "The rounding-rule correction is complete; test boundary values and recheck six code regions and stats before release.",
+    "priority": "P3"
+  },
+  {
+    "pid": "E4_L2_EN_002",
+    "cat": "code",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "组件已声明关注状态，处理加载、错误和空数据分支，闭合全部 JSX 与函数，并为切换按钮提供 aria-pressed；无未定义标识符或旧脚手架。",
+    "suggest": "无需实质修改；发布前执行 TypeScript/JSX 类型检查，并测试加载、错误、空用户、消息回调和关注切换，再复核六区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E4_L2_EN_003",
+    "cat": "code",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "表单模块完整定义校验、清理、错误呈现和提交路径；电话规则与提示一致，DOM 空值、旧状态、网络失败、无障碍反馈及服务端复验边界均闭合。",
+    "suggest": "无需实质修改；发布前执行 ES2024 语法检查，并测试缺失表单、必填/可选字段、重复提交、网络失败、状态清理和服务端复验，再复核六区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E4_L3_EN_001",
+    "cat": "code",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "Flask Blueprint 已补对象型 JSON 校验、schema 限制更新、事务回滚和泛化客户端错误，并展示认证、非法输入、软删除及隐藏记录的最小 pytest；旧 QA、未定义缓存调用和方位冲突均已清除。",
+    "suggest": "无需实质修改；发布前在项目依赖环境运行 Flask/SQLAlchemy 测试，覆盖认证、422/409/500 回滚、软删除和 404，再复核八区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E4_L3_EN_002",
+    "cat": "code",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "Vue 3 SFC 已渲染 stats-grid、加载/失败/重试、活动流和响应式样式，只使用原片段已证明的 composable API；动态文字使用转义插值，旧 QA 和虚报状态条已清除。",
+    "suggest": "无需实质修改；发布前执行 Vue/TypeScript 编译和组件测试，覆盖首次加载、失败重试、空活动流、加载更多、可访问标签及移动布局，再复核八区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E4_L3_EN_003",
+    "cat": "code",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "Go 处理器收敛为完整列表端点，包含真实 chi 路由、认证限速、参数化 count/page 查询、页码上界、超时、rows.Err、泛化错误和 JSON 输出，并展示 parsePage 表驱动测试；total 明确为 best-effort 分页提示。",
+    "suggest": "无需实质修改；发布前在 Go 工具链执行 gofmt、go test 与静态检查，并测试空页、并发增删的一致性边界、超时、扫描/编码失败、认证和限速，再复核八区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F1_L1_EN_001",
+    "cat": "caption",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "湖景标题、储备地、拍摄日期与9月刊发时间线统一；24–70mm镜头明确以42mm、f/8、1/125s、ISO200拍摄，限量版与打印链接闭合，制作占位词及方位漂移清除。",
+    "suggest": "无需实质修改；发布前核验地点、拍摄时间、EXIF、刊期页码、版次与打印授权，并复核四区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F1_L1_EN_002",
+    "cat": "caption",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "菜名、家庭来源、主厨/造型/摄影署名及刊期页码统一；手工 tagliatelle 以1小时30分总时长呈现，两种搭配饮品分别给出适宜温度，制作词和 credit 方位冲突清除。",
+    "suggest": "无需实质修改；发布前核验配方总时长、份量、刊名页码、署名、酒饮与无酒精搭配温度，并复核四区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F1_L1_EN_003",
+    "cat": "caption",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "城市、河岸、酒店视点和朝向统一；日期、UTC偏移、15秒/f11/ISO100、24mm焦距与三脚架构成完整夜景EXIF，删除无法核验的Blue Hour和制作地名，四区方位与carrier一致。",
+    "suggest": "无需实质修改；发布前核验地点、UTC偏移、拍摄许可、EXIF、打印链接和账号，并复核四区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F1_L2_EN_001",
+    "cat": "caption",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "英法字幕逐义同步；83:45/108:00=77.546%显示为77.5%，剩余24:15；CC、音频描述与4K HDR在credits和controls中一致，制作词及方位冲突清除。",
+    "suggest": "无需实质修改；发布前核验双语字幕、地点与集名、播放器进度/剩余时间、无障碍标签，并复核六区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F1_L2_EN_002",
+    "cat": "caption",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "法文完整对应英文；timecode以24fps限定，DCP采用2K DCI Flat/XYZ和7.1声道，员工badge与审片水印自然，制作词及三处方位冲突清除。",
+    "suggest": "无需实质修改；发布前核验翻译、24fps帧号、DCP画面/声音规范、badge与审片水印，并复核六区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F1_L2_EN_003",
+    "cat": "caption",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "NOT A REAL EMERGENCY、Prerecorded和Scenario clock多层界定演练；日期星期、场景窗口、模拟伤情/机构状态与真实安全提示闭合，方位和制作污染清除。",
+    "suggest": "无需实质修改；发布前核验演练日期/时钟、controller场景、真实安全指引、更新链接和联系码，并复核六区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F1_L3_EN_001",
+    "cat": "caption",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "剪辑时间线已用四条主题字幕替换工程图QA串；起止码与duration、52:14=3,134秒、审批/复核星期、音频同步、字幕轨差异、QC数量和交付清单均闭合。",
+    "suggest": "无需实质修改；发布前在字幕工具中验证时间码、阅读速率、轨道映射、音频同步、QC报告与交付包，并复核九区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F1_L3_EN_002",
+    "cat": "caption",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "直播口播、两张涂层比较卡的matte/gloss三维评分、current/peak/unique/saves口径及日程时区均明确；保存率1.01%、峰值占比90.60%、阈值差347和30天评论期限可复算，QA污染已清除。",
+    "suggest": "无需实质修改；发布前核验直播时间、评分原始记录、current/peak/unique/saves、资源披露和评论期限，并复核八区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F1_L3_EN_003",
+    "cat": "caption",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "片尾职员表已删除工程图QA和重复品牌，按部门重排；2025-03-03至09-19共201天、01:47:32=6,452秒、master星期和4K/23.976fps规格均闭合。",
+    "suggest": "无需实质修改；发布前核验职员/公司授权、制作日期、后期规格、runtime、无障碍交付和master记录，并复核九区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F2_L1_EN_001",
+    "cat": "dialogue",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "两人晚餐对话以绝对日期和逐条时间形成完整顺序；餐厅、菜品、双人订位、7:55 PM 到达与已读状态闭合，五区方位、carrier 和 stats 一致。",
+    "suggest": "无需实质修改；发布前核验餐厅、订位姓名与人数、消息/到达时间和已读状态，并复核五区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F2_L1_EN_002",
+    "cat": "dialogue",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "工程对话明确 3 项失败测试、周二修复、周三中午 staging build、15:00 dry run 和周四 demo；负责人、Room 4B、邀请、日期星期和五区方位闭合。",
+    "suggest": "无需实质修改；发布前核验失败测试数、修复负责人、构建截止、演练室、邀请和演示范围，并复核五区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F2_L1_EN_003",
+    "cat": "dialogue",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "群聊明确 5 名外来宾客与 2 名主办者，共 7 人用餐；周五截止与抵达、周六 16:00 开餐、饮食需求和携带物品闭合，日期星期正确。",
+    "suggest": "无需实质修改；发布前核验 7 人名单、饮食需求、地点、周五截止与抵达、周六开餐和菜品分工，并复核五区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F2_L2_EN_001",
+    "cat": "dialogue",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "五人群聊将 4 人徒步、接送、6.4 英里/850 英尺路线、4 小时窗口及 5 人早午餐闭合；8:30–12:30、$28×5=$140、日期星期和订位责任均可复算。",
+    "suggest": "无需实质修改；发布前核验天气、路线难度、接送车辆、返程缓冲、菜单价格、税费和订位确认，并复核七区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F2_L2_EN_002",
+    "cat": "dialogue",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "错色订单、有限身份核验、两种救济、无费用交叉发货、预付标签、14 天退货期限及结案通知形成完整客服链；日期、9 分钟会话和隐私边界一致。",
+    "suggest": "无需实质修改；发布前核验订单/SKU、替换库存、承运商时效、退货截止、退款触发、邮箱和零收费承诺，并复核七区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F2_L2_EN_003",
+    "cat": "dialogue",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "站会以周五成果、周一计划、阻塞/影响和稳定 owner 组织；47 项测试、6 次研究、30 分钟维护窗、4 小时监控与 10:00/13:30/14:00 截止均闭合。",
+    "suggest": "无需实质修改；发布前核验 47 项测试、沙箱审批、staging 通知、设计评审、内存图和 ticket 启动，并复核七区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F2_L3_EN_001",
+    "cat": "dialogue",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "八人工作群在 25 分钟内完成 35 人活动决策；日期星期、场地、交通、无障碍和私密需求流程闭合，$4,480+$420+$850+$175+$560=$6,485，预算余 $515。",
+    "suggest": "无需实质修改；发布前核验场地协议、容量、餐食/无障碍确认、交通报价与私密需求表单，并复核九区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F2_L3_EN_002",
+    "cat": "dialogue",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "八条消息在 4 分 32 秒内形成完整证据链：HTTP 200 空结果、847 行租户分布、相同 migration revision、manifest 与 import log 定位错误 tenant remap；dry-run、事务修复、checksum、endpoint 和隔离测试闭环。",
+    "suggest": "无需实质修改；发布前核验修复审批、导出与 checksum 留存、tenant 隔离测试、DEBUGREF、八条消息计数、十区唯一性及 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F2_L3_EN_003",
+    "cat": "dialogue",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "虚构教练对话按提问、事实、非诊断观察、同意、七日实验、复述和集中安全边界推进；120/20=6 次、6×20 秒=2 分钟，日期星期、7 天与 18 分钟均闭合。",
+    "suggest": "无需实质修改；发布前核验虚构/非医疗标识、隐私提示、实验记录、真实症状升级边界、日期时长和暂停算术，并复核十一区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F3_L1_EN_001",
+    "cat": "comic_panel",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "两格以追回钥匙、石像苏醒、灯光配合和转动钟铃机构形成闭环；Mara/Ivo动作归属、石像音效、结局及五区方位一致。",
+    "suggest": "无需实质修改；发布前核验钥匙与钟铃机构的连续性、Mara/Ivo气泡指向、石像动作和结局，并复核五区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F3_L1_EN_002",
+    "cat": "comic_panel",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "遥测证据、Jalen质疑与内心确认、Rhea说明及Vale改航调查构成清楚转折；Beacon Seven位置冲突有明确证据与行动结果，五区阅读顺序闭合。",
+    "suggest": "无需实质修改；发布前核验raw telemetry、Beacon Seven位置、flight badge后果、改航与调查承接，并复核五区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F3_L1_EN_003",
+    "cat": "comic_panel",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "被盗sun-core、空中拦截、Rook逃跑判断与磁力手套同时收核堵路形成单格完整动作；撤离列车、唯一出口、对白和结局闭合。",
+    "suggest": "无需实质修改；发布前核验sun-core、列车撤离、磁力手套能力、Rook与Sentinel站位，并复核四区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F3_L2_EN_001",
+    "cat": "comic_panel",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "四格以05:47现时、05:00末次联络和05:48伏击形成顺序，47分钟可复算；Mara绕行marker 12使齐射落在空路，Vale信标提供后续钩子，人物和方位闭合。",
+    "suggest": "无需实质修改；发布前核验页码、时间、Rook/Mara/Vale归属、marker 12、蓝烟与信标延续，并复核七区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F3_L2_EN_002",
+    "cat": "comic_panel",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "04:17断联、04:19:08外部撞击和04:19:31救援倒计时形成证据链；12:00减23秒=11:37，47个relay、7-C破口、7-B集结与6–8撤离相互对应。",
+    "suggest": "无需实质修改；发布前核验47个relay、载波分析、7-B/7-C/7-D区位、两名维修员、12分钟供气和倒计时，并复核七区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F3_L2_EN_003",
+    "cat": "comic_panel",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "18:37对峙、第三封印、18:40首击及18:43难民抵达形成连续窗口；Veyr/Aldric旧盟誓、军团、Crown shield和难民目标闭合，施法者与七区方位明确。",
+    "suggest": "无需实质修改；发布前核验Issue/Page、18:37–18:43时间线、第三封印、难民距离、Veyr/Aldric归属和四格方位，并复核七区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F3_L3_EN_001",
+    "cat": "comic_panel",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "六格救援按T−04:00至T−01:30推进；23%−18%=5%、10%飞行阈值、4座×3周期=12人、3×20秒=60秒、300m半径和单次脉冲共同约束锚定、弹射与救援结果。",
+    "suggest": "无需实质修改；发布前核验日期、12名工人、无人机周期、装甲电量、弹射距离/时长、脉冲半径与倒计时，并复核十一区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F3_L3_EN_002",
+    "cat": "comic_panel",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "八格午餐路线先等待下课并遵守走廊规则；180m/1.5m每秒=120秒，30m绕行增加20秒，12:05:20至12:07:40共140秒；30−27=3且3×240=720，拟声与内心气泡分区明确。",
+    "suggest": "无需实质修改；发布前核验日期、下课与走廊规则、步行速度/距离、绕行、库存、积分和20秒余量，并复核十二区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F3_L3_EN_003",
+    "cat": "comic_panel",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "九格以45分钟失窃窗、10分钟钥匙窗、14分钟录像缺口及7分钟交集组织证据；机会不等于罪责，日志/收据/原录像/现场四类证据保全，11:52与00:04至noon倒计时闭合且不预判责任人。",
+    "suggest": "无需实质修改；发布前核验日期、保险额、访问角色、四项证据保全、45/10/14/7分钟窗口、checksum和noon期限，并复核十一区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F4_L1_EN_001",
+    "cat": "infographic",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "同一Q2调查以满意或非常满意口径报告9672/12400=78%；四个分群样本量合计12400，Q1/Q2问卷、总体和邀请方式保持一致，属性分数与抽样误差边界分开说明。",
+    "suggest": "无需实质修改；发布前核验Q1/Q2同口径、9672/12400、四个分群样本量、±0.9pp仅为抽样误差且不覆盖非响应偏差，并复核五区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F4_L1_EN_002",
+    "cat": "infographic",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "MAU固定为截至2026-06-30 UTC的30日窗口，MoM和YoY均给出同长度对照窗；129.6万+74.4万+36万=240万，67.2万/240万=28.0%，用户总量与参与率口径闭合。",
+    "suggest": "无需实质修改；发布前核验两个30日比较窗、账户去重与bot规则、平台合计240万、DAU/MAU算式及新用户留存定义，并复核五区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F4_L1_EN_003",
+    "cat": "infographic",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "FY2025收入1200.0M相对FY2024的983.6M增加216.4M，即22.0%；四个收入流与四个区域分解分别闭合至1200M，且较1150M指引上限高50M。",
+    "suggest": "无需实质修改；发布前核验983.6+216.4=1200.0、22.0%增长、两套分解、指引差额及净收入和舍入口径，并复核五区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F4_L2_EN_001",
+    "cat": "infographic",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "Q1/Q2 actual与Q3 forecast明确分离；42.00M×31%=13.02M，12.40M+14.80M=27.20M，五项产品收入也合计27.20M，100.1%仅来自展示舍入。",
+    "suggest": "无需实质修改；发布前核验actual/forecast边界、成交数与Revenue/deal、Q3加权公式、H1/目标差额、产品合计和舍入说明，并复核七区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F4_L2_EN_002",
+    "cat": "infographic",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "全篇统一为Asteria Grid公用事业规模净发电TWh；2025年47+41+12=100TWh，2024年98+可再生7−化石5+核电0=2025年100TWh，34/98=34.7%到41.0%为+6.3pp。",
+    "suggest": "无需实质修改；发布前核验三类互斥范围、各子项、2024→2025 bridge、份额变化、进口/表后发电/储能排除项和来源日期，并复核六区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F4_L2_EN_003",
+    "cat": "infographic",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "801/900=89.0%，4.10/5、eNPS +34和82% favorable三种量表明确分离；同比只比较同一指标，并以一次性token、导出前去身份、最小报告组10人界定confidential调查。",
+    "suggest": "无需实质修改；发布前核验三种量表不可互换、801/900响应率、逐维同比、行动owner/日期、单次token与去身份流程，并复核六区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F4_L3_EN_001",
+    "cat": "infographic",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "120条信号依次收敛为48个机会、18个原型、9个候选和3次发布；各阶段gate、加权8.10/10、累计曝光50→250→1000、17周上线加6周复盘均可复算且不混加累计阶段。",
+    "suggest": "无需实质修改；发布前核验120→48→18→9→3 funnel、优先级权重、阶段gate、累计rollout、17/23周时间线、日期和owner，并复核十区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F4_L3_EN_002",
+    "cat": "infographic",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "五段以Day 1–7、8–21、22–42、43–63、64–90无重叠覆盖90个日历日；基础安全培训只出现一次，后续对实际改动做threat review；每段交付、支持角色和私密accommodation路径均有明确边界。",
+    "suggest": "无需实质修改；发布前核验7+14+21+21+27=90、起止日期、基础培训与变更级threat review区分、checkpoint证据、私密支持和改期规则，并复核十区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F4_L3_EN_003",
+    "cat": "infographic",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "发布工程控制环以20000个eligible accounts为固定分母，风险分17进入HIGH，累计曝光100→1000→5000→20000并配24/24/48小时dwell；自动hold/rollback、角色决策权和append-only日志构成可审计闭环。",
+    "suggest": "无需实质修改；发布前核验固定分母、风险公式与分档、累计曝光和dwell、阈值持续时间、回滚权限、候选hash及append-only更正规则，并复核十一区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A3_L2_EN_001",
+    "cat": "poster",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "摇滚巡演采用唱片店橱窗中的18×24英寸炭黑手递单结构，以标题轨、斜向飘带、场馆板、时间梯和票价筹码形成专属阅读路径；日期、演出顺序、票价与交通信息闭合。",
+    "suggest": "无需实质修改；发布前核验2026-10-17为Saturday、四档票价、场馆入口、交通/停车和摄影限制，并复核八区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A3_L2_EN_002",
+    "cat": "poster",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "剧院海报使用独立的拱门、三行演出表和无障碍信息轨结构；演员、场馆、周演出时段、2小时15分钟runtime、五档票价及联系方式属于同一playbill语境。",
+    "suggest": "无需实质修改；发布前核验演员占位符、场馆地址、演出表、runtime、票档、TDD与无障碍服务，并复核八区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A3_L2_EN_003",
+    "cat": "poster",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "慈善晚宴邀请函以罗盘徽章和四角面板组织受益方、日程、节目与捐赠档位；Supporting grant awards under SAFE-LICENSE语义完整，日期、RSVP、接待和联系信息一致。",
+    "suggest": "无需实质修改；发布前核验2026-12-12与11-28均为Saturday、SAFE-LICENSE语义、四档捐赠、RSVP/餐食和主办方信息，并复核十区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A2_L3_EN_001",
+    "cat": "label",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "牛奶和酸奶分别具备正面身份、储存、Nutrition Facts、配料/过敏原与追溯信息；牛奶约16杯，酸奶907g/170g约5份，4%蜂蜜和2%核桃与12g糖、8g脂肪口径不再硬冲突。",
+    "suggest": "无需实质修改；发布前核验容量/份数、两套营养值、蜂蜜/核桃比例、规范菌株、冷藏温度、过敏原、日期和货架价格，并复核十区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A2_L3_EN_002",
+    "cat": "label",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "三件作品按1665→1880→1973从左到右陈列，展厅年代范围与顺序一致；借展作品使用loan number，馆藏作品使用accession number，并由策展说明、looking guide和访客信息补齐十区。",
+    "suggest": "无需实质修改；发布前核验艺术家生卒年、作品年份/尺寸、loan与accession边界、年代顺序、开放时间和摄影规则，并复核十区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A2_L3_EN_003",
+    "cat": "label",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "三列均明确为标签识读教具，使用空泵瓶、非食品泡沫片和空泡罩，不给药名、活性成分、症状、剂量或疗效；每列按front/field map/safety traceability形成清楚的不可销售、不可使用边界。",
+    "suggest": "无需实质修改；发布前核验三件惰性教具、Not a medicine/Not for sale or use、内容物数量、training code、revision与inventory lot，并复核九区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A3_L3_EN_001",
+    "cat": "poster",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "影展十区现完整覆盖片单、日期、场馆、票务、评审和industry/access events；第10区提供9月8日论坛、9月10日Q&A、无台阶路线、字幕和辅助请求期限，日期均可成立。",
+    "suggest": "无需实质修改；发布前核验片单/场次、2026日期、票价、forum/Q&A、字幕/无障碍路径和联系信息，并复核十区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A3_L3_EN_002",
+    "cat": "poster",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "三日音乐节日期Friday至Sunday正确，阵容、场馆、票务、规则、赞助、联系和交通各有专属区；末区补20分钟接驳、单车位、无障碍落客、网约车与末班车信息，方位与标注一致。",
+    "suggest": "无需实质修改；发布前核验三日日期/阵容、票档、场馆规则、接驳频率、末班车、无障碍交通和联系信息，并复核十区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A3_L3_EN_003",
+    "cat": "poster",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "The family-festival schedule, access, transport and rules remain coherent, and the four affected poster wrappers now use grammatical capitalization.",
+    "suggest": "The wrapper cleanup is complete; only recheck the Sunday date, ten regions and stats before release.",
+    "priority": "P3"
+  },
+  {
+    "pid": "A1_L1_ZH_001",
+    "cat": "sign",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "社区面包房的木牌、橡木铭牌、黑板、黄铜牌与认证贴分别承载品牌、产品、营业和认证信息，细节互相吻合且具有独特场景逻辑。",
+    "suggest": "无需实质修改；最终发布前仅核验 TELCODE_SAFE、LOCBLOCK-SAFE 等占位符是否按预期保留或替换。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A1_L1_ZH_002",
+    "cat": "sign",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：将“未满样例年龄”改成明确的虚构年龄条件，并把“样例调饮/样例主题夜”改成自然的虚构活动名称；同时核验 SAFE 联系字段。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A1_L1_ZH_003",
+    "cat": "sign",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "农场诚信摊围绕商品、自采区、开放时间、付款和会员服务形成完整经营场景，品类与指引均有针对性。",
+    "suggest": "无需实质修改；最终发布前核验 TELCODE-A0060 等占位符格式及价格、开放月份是否为预期设定。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A1_L2_ZH_001",
+    "cat": "sign",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "复古咖啡馆围绕豆源、特饮、学习时段、露台、课程与订阅服务展开，信息虽密集但主题一致且场景独特。",
+    "suggest": "无需实质修改；最终发布前核验 MAILCODE-A0001、LOCBLOCK-SAFE 等占位符及营业时间。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A1_L2_ZH_002",
+    "cat": "sign",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：把“样例休息亭”“样例许可码”“样例年龄”改为自然的虚构设施名、许可名和明确年龄门槛，并核验电话及网址占位符。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A1_L2_ZH_003",
+    "cat": "sign",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "三层地上空间与101–302房号、B1管理处闭合，六块街道信息各自载体和方位明确。",
+    "suggest": "无需实质修改；发布前核验三层空间、房号、管理处、交通规则和六区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A1_L3_ZH_001",
+    "cat": "sign",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "市集活动板恢复为8:00–12:40逐时安排，全部位于7:30–13:00营业窗，商品、规则、商户、志愿者和交通信息闭合。",
+    "suggest": "无需实质修改；发布前核验活动时间、营业窗口、摊位规则、占位符和十二个区域与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A1_L3_ZH_002",
+    "cat": "sign",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "固定易混淆串已删除；三层书局与三楼阅读区一致，九块老街招牌主题和载体闭合。",
+    "suggest": "无需实质修改；发布前核验建筑楼层、店铺日期、活动时间、占位符和九区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A1_L3_ZH_003",
+    "cat": "sign",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "全条统一为机场语境，四班出发信息、B1–B24登机口、设施、工作人员出口、餐饮和欢迎地贴相互对应。",
+    "suggest": "无需实质修改；发布前核验四班航班状态、登机口、设施、机场目的地、占位符和十区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A2_L1_ZH_001",
+    "cat": "label",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "蜂蜜标签的花源、海拔、采集季、波美度、结晶和储存说明形成专属溯源档案，内容针对产品单独设计。",
+    "suggest": "无需实质修改；最终发布前核验认证号、许可号、电话等占位符及采集年份。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A2_L1_ZH_002",
+    "cat": "label",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "橄榄油的品种、酸度、多酚、采收压榨、风味和食用建议彼此呼应，产品信息具有明确独特性。",
+    "suggest": "无需实质修改；最终发布前核验 SAFE-REG-A0847 等认证占位符以及采收日期、保质信息。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A2_L1_ZH_003",
+    "cat": "label",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：为“约样例年代”和“样例画师”填入明确的虚构年代与作者代号，或统一改用结构化 SAFE-YEAR、ARTIST-SAFE 占位符。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A2_L2_ZH_001",
+    "cat": "label",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "无醇饮品标签的容量、营养、配料、储存和追溯信息闭合，条码已改用 BARCODE-SAFE，服务热线继续使用 TELCODE，字段类型清楚。",
+    "suggest": "已完成条码 token 类型修订；发布前仅复核七区文字、占位符和 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A2_L2_ZH_002",
+    "cat": "label",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "咖啡豆的产区、品种、处理法、烘焙度与多种冲煮参数高度定制，未见内容层面的机械串或改名复用。",
+    "suggest": "无需实质修改；最终发布前核验 STAFF-SAFE、WEBLINK_SAFE、电话和批次号等占位符。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A2_L2_ZH_003",
+    "cat": "label",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：统一改为“啤酒花品种”“干投啤酒花用量”“啤酒花（四种）”，并将SAFE-US-05改为“酵母菌株：US-05”。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A2_L3_ZH_001",
+    "cat": "label",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "牛奶营养表已按每 100 毫升列出能量、蛋白质、脂肪、碳水、钠和钙，并以 1 升约十份闭合包装口径；条码占位符类型也已纠正，三类乳品信息完整。",
+    "suggest": "无需实质修改；发布前由食品法规人员核验营养分析、配料与过敏原、冷藏保质期、条码字段，并复核九个 gt_regions 与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A2_L3_ZH_002",
+    "cat": "label",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "三件原创作品、来源、导视与展期构成独立展览场景，说明中的“虚构占位”已自然化为“虚构设定”。",
+    "suggest": "已完成元措辞自然化；发布前仅复核九区文字、作品字段和 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A2_L3_ZH_003",
+    "cat": "label",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "三套材料明确为空包装或非食用教学教具，分别提供包装记录、观察任务、图卡说明、套件清单和无障碍提示；非医疗边界与保管规则清楚，未见固定 QA 串。",
+    "suggest": "无需实质修改；发布前核验 SAFE-LABEL、SAFE-BATCH、SAFE-CARD、STAFF-SAFE 与 LOCBLOCK-SAFE 占位符，并确认不可吞咽、儿童看护和消毒归柜说明。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A3_L1_ZH_001",
+    "cat": "poster",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "爵士盛典的舞台、阵容、场馆票价、获奖回顾与志愿招募形成完整独立活动，信息层次清楚。",
+    "suggest": "无需实质修改；最终发布前核验演职人员、地点、购票渠道等 SAFE 占位符。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A3_L1_ZH_002",
+    "cat": "poster",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "科幻电影海报具有明确片名、世界观、主创、格式、上映和发行信息；营销措辞属于该类型常见文案，不构成内容复用证据。",
+    "suggest": "无需实质修改；最终发布前核验导演、演员、分级和话题账号等占位符。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A3_L1_ZH_003",
+    "cat": "poster",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：将活动改为8月8至9日、第2届、两日票520元/单日票300元/VIP 980元，口号改为“海风与节拍的周末”，并将露营区改为夜间灯光步道；同步全部重复字段。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A3_L2_ZH_001",
+    "cat": "poster",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：保留“样例巨蛋体育馆”，删除“户外场地如遇恶劣天气将顺延”整句，并同步观演须知区域。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A3_L2_ZH_002",
+    "cat": "poster",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：改为“建议12岁以上观众观看”“身高1.2米以下观众需成人陪同”；保留“璀璨水晶”，删除末尾单独的“璀璨”。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A3_L2_ZH_003",
+    "cat": "poster",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "公益晚宴的受益项目、流程、席位、节目、着装和联系方式形成独立完整方案，未发现内容成套复用证据。",
+    "suggest": "无需实质修改；最终发布前核验金额、票据说明、嘉宾及联系方式等占位符。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A3_L3_ZH_001",
+    "cat": "poster",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "电影展海报的片单、评委、日程、场馆、票务、主办与交通信息均围绕同一活动；交通区已补接驳末班时间和无障碍乘车说明，未见字符测试残留。",
+    "suggest": "无需实质修改；发布前核验影片与主创占位符、评委阵容、场馆日程、票价、交通班次和无障碍服务，并复核九个 gt_regions 与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A3_L3_ZH_002",
+    "cat": "poster",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "音乐节已采用独立日期、主题、阵容、票价、舞台规模、设施与交通方式，三日节目和服务边界完整，旧报名质检条及易混淆串均已清除。",
+    "suggest": "无需实质修改；发布前核验演出阵容、日期、票档、年龄规则、交通班次、WEBLINK/TELCODE 占位符，并复核九个 gt_regions 与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A3_L3_ZH_003",
+    "cat": "poster",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "社区游园会海报已补齐从鼓队开场到灯光闭幕的逐时舞台节目，并将 2026-07-19 正确标为周日；儿童活动、美食、市集、交通和主办信息闭合。",
+    "suggest": "无需实质修改；发布前核验 SAFE-AGE、SAFE-PASS、地标与活动票价、交通安排、赞助及志愿者链接，并复核八个 gt_regions 与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A4_L1_ZH_001",
+    "cat": "billboard",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "电子城年终促销围绕折扣、单品、倒计时、位置和会员福利展开，价格体系与活动规则独立完整。",
+    "suggest": "无需实质修改；最终发布前核验门店位置、电话、网址和团购联系码等占位符。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A4_L1_ZH_002",
+    "cat": "billboard",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "公路三明治广告把食材、套餐、出口、得来速和招牌菜组合成针对性强的单一品牌场景。",
+    "suggest": "无需实质修改；最终发布前核验出口、电话、邮件等占位符和家庭套餐价格。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A4_L1_ZH_003",
+    "cat": "billboard",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：将末句改为“一个助手覆盖工作与学习全场景”，删除多余的“等全场景”；同时核验网址和 SAFE-PASS。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A4_L2_ZH_001",
+    "cat": "billboard",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：删除“占位”二字，将利率、价格、返利统一填成明确虚构值，或改为一致的 SAFE-RATE、SAFE-PRICE、SAFE-REBATE 结构化占位符。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A4_L2_ZH_002",
+    "cat": "billboard",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "公路汉堡店的新品、套餐、得来速、导航和招聘信息完整，岗位薪资已改用 SAFE-SALARY，与支付字段明确分离。",
+    "suggest": "已完成薪资 token 类型修订；发布前仅复核六区文字、招聘字段和 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A4_L2_ZH_003",
+    "cat": "billboard",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：填入明确虚构创立年份和价格，删除“占位”二字，并统一 SAFE-PAY 等字段的展示格式。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A4_L3_ZH_001",
+    "cat": "billboard",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "车展已将品牌墙整理为14个唯一品牌，补齐2026年展期、票种年龄边界、预展夜及成人电子票折扣规则，并删除固定易混淆串；展会规模、日程、票务、交通和线上互动闭合。",
+    "suggest": "无需实质修改；发布前核验参展品牌、展期、票价、年龄资格、折扣、活动场次、停车与联系字段，并复核十区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A4_L3_ZH_002",
+    "cat": "billboard",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "楼宇广告的价格、交付、配套与优惠闭合，3.8% 已明确为参考年利率，不再缺少周期口径。",
+    "suggest": "已完成利率口径修订；发布前仅复核九区文字、优惠条件和 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "A4_L3_ZH_003",
+    "cat": "billboard",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "超市广告已用常规及节假日营业时间、服务台和配送时段替换错贴的 QA 条，补齐2026年促销期、会员优惠不叠加规则及价签咨询路径；品类价格、会员、营业与门店信息闭合。",
+    "suggest": "无需实质修改；发布前核验商品价格、促销日期、会员及配送规则、营业时间、停车和联系字段，并复核九区与 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B1_L1_ZH_001",
+    "cat": "article",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "小说页包含埃莉诺、铜罗盘、七年往事和清晨离开等具体人物与事件，叙事细节具有独立性。",
+    "suggest": "无需实质修改；最终发布前核验作者、奖项、销量和影视公司等占位符。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B1_L1_ZH_002",
+    "cat": "article",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "悬疑序章的人物、环境与冲突形成独立叙事，出版信息中的 ISBN 已改用 ISBN-SAFE-CODE，不再混用支付 token。",
+    "suggest": "已完成 ISBN token 类型修订；发布前仅复核五区文字、出版字段和 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B1_L1_ZH_003",
+    "cat": "article",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：删除引言开头多余的一组双引号，并统一整段引言的中文引号与句末署名格式；核验作者和出版字段。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B1_L2_ZH_001",
+    "cat": "article",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：将署名日期中的“星期二”改为“星期三”，并最终核验 SAFE-BUDGET、SAFE-FUND 等占位符。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B1_L2_ZH_002",
+    "cat": "article",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "量子计算杂志页具有明确芯片、会议、性能指标、验证机构与开放计划，内容能够独立成立；版面描述本身不视为批量痕迹。",
+    "suggest": "无需实质修改；最终发布前核验记者、机构、价格、责任编辑及其他 SAFE 占位符。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B1_L2_ZH_003",
+    "cat": "article",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：将外层人物引语统一改为中文双引号，内部引用外婆的话改用中文单引号，并逐段补齐对应闭合引号。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B1_L3_ZH_001",
+    "cat": "article",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "快时尚调查围绕生产规模、水与杀虫剂消耗、纺织废弃和消费者行动展开，新增行动框补齐“问题—证据—建议”论证链，未见跨题或字符测试残留。",
+    "suggest": "无需实质修改；发布前核验 SAFE-MARKET、SAFE-MONEY、SAFE-FOUNDATION 与专家占位符，并复核各项环境数据来源和统计口径。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B1_L3_ZH_002",
+    "cat": "article",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "导视专题从研究摘要、现场观察、三项因素到八条建议逐层展开，版面引导已自然化，标题、正文、因素框和结语均围绕空间寻路主题。",
+    "suggest": "无需实质修改；发布前核验 SAFE-COUNT、AUTHOR-SAFE 与 EXPERT-SAFE 等占位符，并确认研究名称、样本量和现场测试口径。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B1_L3_ZH_003",
+    "cat": "article",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "城市花园专题包含采编说明、增长数据、志愿者引语、幸福感观察、起步步骤和资源链接，署名区功能已恢复，内容闭合且未见固定 QA 模板。",
+    "suggest": "无需实质修改；发布前核验 SAFE-NUM、SAFE-FUND、人物与链接占位符，并复核花园数量、增幅、面积及产量口径。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B2_L1_ZH_001",
+    "cat": "newspaper",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：将报头日期中的“星期一”改为“星期五”，并核验预算、基金、价格和联系字段。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B2_L1_ZH_002",
+    "cat": "newspaper",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：将报头“晨报”改为“晚报”，保留城市晚报场景；将日期星期改为星期五并同步全文。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B2_L1_ZH_003",
+    "cat": "newspaper",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成最终方案：保留周日论坛报、周日特别策划等 Sunday 语境，将日期改为 2026 年 7 月 12 日星期日，并同步正文和 gt_regions；该日期经日历复核为星期日。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B2_L2_ZH_001",
+    "cat": "newspaper",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "报纸主副稿、简讯、索引和广告属于同一版面，住宅广告已将 3.25% 明确为参考年利率并补充展示方案边界。",
+    "suggest": "已完成利率口径修订；发布前仅复核八区文字、日期、数值和 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B2_L2_ZH_002",
+    "cat": "newspaper",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：将星期改为“星期六”，并把“守护老城”统一使用中文书名号或引号，避免与外层新闻引语冲突。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B2_L2_ZH_003",
+    "cat": "newspaper",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原创手工艺文化周刊围绕活字印刷机修复、内版导读和开放工坊日程形成完整非时政版面；报头仅使用原创墨辊与折纸几何图形，并明确排除国徽、党徽、旗帜、政治标志、官方印章及真实机构和媒体标识。",
+    "suggest": "已完成原全国性日报与灾害报道的整体替换；发布前仅复核六区文字、修复数据、日程和 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B2_L3_ZH_001",
+    "cat": "newspaper",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "城市报纸头版的企业协作主报道、学习中心副稿、文化快讯、天气、导读和展陈广告各有明确栏目，星期已与 2026-08-14 对齐，未见区域脚手架或字符测试残留。",
+    "suggest": "无需实质修改；发布前核验 REPORTER-SAFE、SAFE-CN、TELCODE-A0076 等占位符，并复核企业数量、开放课覆盖数及天气数据。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B2_L3_ZH_002",
+    "cat": "newspaper",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "都市日报头版围绕会展连廊主稿，并配置艺术节、体育、天气、索引和活动广告，栏目边界清楚；星期已与 2026-10-07 对齐，旧逐区域模板和测试串均已清除。",
+    "suggest": "无需实质修改；发布前核验记者、球员、优惠码和电话占位符，并复核连廊长度、换乘时间、艺术节日期及客流数据。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B2_L3_ZH_003",
+    "cat": "newspaper",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "国际报纸头条已有完整正文，明确参与机构、统一范围、试行与互测时间及无障碍检查；副稿、天气和索引共同构成完整头版，未见 QA 或区域编号残留。",
+    "suggest": "无需实质修改；发布前核验 SAFE-PUB-CODE、SAFE-NUM、EDITOR-SAFE 与 STAFF-SAFE 等占位符，并复核协作时间线和互测范围。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B3_L1_ZH_001",
+    "cat": "letter",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：把开场末尾“。。”改为“。”，将“版面左上角处处”改成“版面左上角处”，并核验收件人与附件占位符。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B3_L1_ZH_002",
+    "cat": "letter",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：将P.S.改为询问庆祝聚会时间，保留正文的展示成功叙事，并删除开场描述末尾多余句号。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B3_L1_ZH_003",
+    "cat": "letter",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：将热线句改为“24小时值班联系码：TELCODE_SAFE”，保留2026年4月12日并将周六改为周日。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B3_L2_ZH_001",
+    "cat": "letter",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "公司周年邀请函包含活动、节目、回执、住宿交通和附件信息，内容独立完整，未见可靠的成套复用证据。 开场描述末尾的重复句号已清理。",
+    "suggest": "已完成最终复核修订：将开场描述末尾的“。。”改为单个句号；GT 文本与 stats 保持不变。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B3_L2_ZH_002",
+    "cat": "letter",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "录取展示书包含专业、学制、奖学金、报到材料和咨询信息，机构创建信息已落为明确的虚构年份 1926 年。",
+    "suggest": "已完成创建年份修订；发布前仅复核七区文字、录取字段和 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B3_L2_ZH_003",
+    "cat": "letter",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：将“联系联系码：TELCODE_SAFE”改为“联系码：TELCODE_SAFE”，并核验金额、条款、面积和文档编号占位符。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B3_L3_ZH_001",
+    "cat": "letter",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "学术推荐信已补入低资源文档理解论文、第一作者职责、联合方法、冻结测试集结果、项目贡献及归档核验依据；研究能力、协作评价与总结推荐语形成完整证据链。 开场描述末尾的重复句号已清理。",
+    "suggest": "已完成最终复核修订：将开场描述末尾的“。。”改为单个句号；GT 文本与 stats 保持不变。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B3_L3_ZH_002",
+    "cat": "letter",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：删除合同修订质检条，补写 2026 年战略目标；把年终奖励和培训计划段移到感谢语之前，再保留签名日期作为结尾。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B3_L3_ZH_003",
+    "cat": "letter",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：删除区域 3 的质检挑战条，改为通知事由或资料核对摘要；将“区域N的文字区块”改成自然的文书位置说明。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B4_L1_ZH_001",
+    "cat": "resume",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "已重构为独立计算机视觉工程师简历：联系方式、两所院校、C++/OpenCV/ONNX 技术栈及边缘视觉检测项目均与相邻简历区分，延迟、召回率和误报率指标口径完整。",
+    "suggest": "无需实质修改；发布前仅核验联系占位符、院校与项目字段，并复核六区文字、嵌入次数及 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B4_L1_ZH_002",
+    "cat": "resume",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：删除重复的 After Effects 或从括号中移除 AE，并统一虚构软件名与真实缩写的使用规则。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B4_L1_ZH_003",
+    "cat": "resume",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "应届营销简历包含课程、实习和校园项目，岗位方向一致，内容层面未发现与其他条目成套复用的可靠证据。 开场描述末尾的重复句号已清理。",
+    "suggest": "已完成最终复核修订：将开场描述末尾的“。。”改为单个句号；GT 文本与 stats 保持不变。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B4_L2_ZH_001",
+    "cat": "resume",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：更换候选人的联系方式、教育和公司轨迹，并用不同技术领域与量化成果重写工作经历，避免复用“延迟降低40%”等标志性内容。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B4_L2_ZH_002",
+    "cat": "resume",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：标题改为CANDIDATE-SAFE-FIN-02并使用独立TEL/MAIL后缀；行业限定制造业成本控制，两段经历分别改为预算管理和成本核算，并使用不同公司占位符及两项独立量化成果。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B4_L2_ZH_003",
+    "cat": "resume",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：更换候选人的专业方向、机构、教育、联系方式和研究项目，并使用不同成果指标，避免与第 72 行同源。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B4_L3_ZH_001",
+    "cat": "resume",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：删除 AWS 质检挑战条，并为该候选人重新设计联系方式、履历、技术栈和管理成果，不再沿用第 64、67 行数据。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B4_L3_ZH_002",
+    "cat": "resume",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：删除 AWS 质检挑战条，将候选人名称、联系方式、教育、公司轨迹和量化成果全部改成独立设定。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "B4_L3_ZH_003",
+    "cat": "resume",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：删除AWS质检条，将“降低37%”改为“降低约31.6%”，并重写候选人的机构、项目和成果以区别第69行。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "C2_L1_ZH_001",
+    "cat": "receipt",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "超市小票商品、优惠、应付与实收金额可核对一致，商品组合和会员信息构成独立消费场景。",
+    "suggest": "无需实质修改；最终发布前核验门店、收银员、会员点数和交易编号等占位符。",
+    "priority": "P3"
+  },
+  {
+    "pid": "C2_L1_ZH_002",
+    "cat": "receipt",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "火锅小票的菜品小计、88 折、满减和最终应付金额计算一致，内容可独立成立。",
+    "suggest": "无需实质修改；最终发布前核验员工、订单、门店和支付方式等占位符。",
+    "priority": "P3"
+  },
+  {
+    "pid": "C2_L1_ZH_003",
+    "cat": "receipt",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：将流水号改为独立的 SAFE-TXN 或 SAFE-RECEIPT 编码，不要包含 TELCODE；同时核验日期和顾问字段。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "C2_L2_ZH_001",
+    "cat": "receipt",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：将销售单号替换为 SAFE-SALE-NO 或独立交易编码，保留 TELCODE-A00910 仅作为服务热线。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "C2_L2_ZH_002",
+    "cat": "receipt",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：保留折扣89.70元和应付906.30元，在99元保暖内衣旁补注“本商品不参与会员折扣”，使(1046-50-99)×10%=89.70。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "C2_L2_ZH_003",
+    "cat": "receipt",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "便利店小票的商品合计、优惠和实付金额计算一致，商品组合、咖啡集点和活动信息具有独立性。",
+    "suggest": "无需实质修改；最终发布前核验会员点数、交易号、员工审计码和电话等占位符。",
+    "priority": "P3"
+  },
+  {
+    "pid": "C2_L3_ZH_001",
+    "cat": "receipt",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：将单号改为SAFE-RECEIPT-A009632，删除末尾易混淆测试串，并在19件旁注明按包装件计。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "C2_L3_ZH_002",
+    "cat": "receipt",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：将消费小计改为12069.00元、15%服务费改为1810.35元；注明税费按小计加服务费计，6%税费改为832.76元、总额改为14712.11元，并删除尾部测试串。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "C2_L3_ZH_003",
+    "cat": "receipt",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "收费票据的明细、优惠、积分与个人支付算术闭合，八个文字块已改为抬头、明细、结算和备注等自然票据载体。",
+    "suggest": "已完成编号区域脚手架自然化；发布前仅复核八区文字、金额链和 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "C3_L1_ZH_001",
+    "cat": "invoice",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "咖啡账单的项目、优惠和实付金额闭合，账单编号已改用 INV-SAFE，不再混用电话 token。",
+    "suggest": "已完成账单编号 token 修订；发布前仅复核五区文字、金额和 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "C3_L1_ZH_002",
+    "cat": "invoice",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "居酒屋账单的菜品、包厢费、服务费和总额一致，单号已改用 ORDER-SAFE，不再混用电话 token。",
+    "suggest": "已完成订单号 token 修订；发布前仅复核五区文字、金额和 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "C3_L1_ZH_003",
+    "cat": "invoice",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：保留酒店结算主题，但重写至少半数附加消费，例如会议室、早餐升级、延迟退房或机场接送，并调整住宿天数与房型，避免复用第 80 行整套项目。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "C3_L2_ZH_001",
+    "cat": "invoice",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "家装各工种、5% 管理费、主材、已付款和 10% 保留款均能核对一致，项目阶段与质保信息针对家装场景设计。",
+    "suggest": "无需实质修改；最终发布前核验项目、客户、员工、支付和联系方式等占位符。",
+    "priority": "P3"
+  },
+  {
+    "pid": "C3_L2_ZH_002",
+    "cat": "invoice",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：将诊疗费小计改为 2160 元、用品费保留 560 元、合计改为 2720 元；按 88 折重算优惠为 326.40 元、实付为 2393.60 元。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "C3_L2_ZH_003",
+    "cat": "invoice",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：将套餐A改为9500元、总额12000元、30%预付款3600元、余款8400元；将LN-QT-TELCODE-A0104改为LN-QT-SAFE-A0104。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "C3_L3_ZH_001",
+    "cat": "invoice",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "年度账单已补齐商品总额 67,832 元和实付 62,996 元，优惠与积分扣减闭合，食品生鲜占比已按金额修为 16.0%。",
+    "suggest": "已完成金额与比例修订；发布前仅复核八区文字、金额汇总、舍入口径和 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "C3_L3_ZH_002",
+    "cat": "invoice",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：删除“让汗水见证改变”之后的易混淆字符测试串，并最终核验训练天数、时长和指标占位符。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "C3_L3_ZH_003",
+    "cat": "invoice",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：删除“愿每一个毛孩子都被温柔以待”之后的易混淆字符测试串，并核验宠物档案占位符。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "C1_L1_ZH_001",
+    "cat": "menu",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：将开场描述末尾的“。。”改为单个句号，并最终核验电话、位置和平台名称占位符。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "C1_L1_ZH_002",
+    "cat": "menu",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：将“周末通营”改为“周末照常营业”或写明周末连续营业时段，并核验预约账号占位符。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "C1_L1_ZH_003",
+    "cat": "menu",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "奶茶店的招牌茶、季节限定、加料、甜度和门店信息形成完整独立菜单，未见内容层面的复用证据。 开场描述末尾的重复句号已清理。",
+    "suggest": "已完成最终复核修订：将开场描述末尾的“。。”改为单个句号；GT 文本与 stats 保持不变。",
+    "priority": "P3"
+  },
+  {
+    "pid": "C1_L2_ZH_001",
+    "cat": "menu",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：更换餐厅品牌与菜系定位，并重写大部分冷菜、热菜、主食和甜品；至少不要与第 97 行共享标志性菜品组合和服务规则。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "C1_L2_ZH_002",
+    "cat": "menu",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "火锅菜单的锅底、荤素菜、小食饮品和蘸料规则具有明确针对性，未发现与其他条目成套复用。 开场描述末尾的重复句号已清理。",
+    "suggest": "已完成最终复核修订：将开场描述末尾的“。。”改为单个句号；GT 文本与 stats 保持不变。",
+    "priority": "P3"
+  },
+  {
+    "pid": "C1_L2_ZH_003",
+    "cat": "menu",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：核对预期菜品，将“规范塔赫碎饼”替换为明确食物，例如“法拉费饼”或其他真实可理解的虚构菜名。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "C1_L3_ZH_001",
+    "cat": "menu",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：重设品牌和主菜体系，使其不再是第 94 行的加长版；删除底部易混淆字符测试串。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "C1_L3_ZH_002",
+    "cat": "menu",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：删除质检挑战条，补回烧物栏目及五至七道串烧、炭烤菜品，并保持与其他类别相近的信息密度。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "C1_L3_ZH_003",
+    "cat": "menu",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：删除区域 7、8 的重复易混淆串和整段质检条；将区域编号改为自然版面描述，区域 8 可改写为门店与过敏原说明。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E1_L1_ZH_001",
+    "cat": "schedule",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "课程表列出周一、周三、周五的具体课程、教师和教室，可合理理解为周二、周四无课，未见内容层面的批量痕迹。",
+    "suggest": "无需实质修改；最终发布前核验班级、教师、教室和日期等占位符，并确认空白日确为无课。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E1_L1_ZH_002",
+    "cat": "schedule",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "健身团课只在部分日期开课是合理运营安排，课程、教练、时长、预约和取消规则构成完整独立信息。",
+    "suggest": "无需实质修改；最终发布前核验教练和电话占位符，并确认周日期范围。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E1_L1_ZH_003",
+    "cat": "schedule",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：将S501终点改为另一个虚构城市站，保留现有5小时38分和经停两站，并同步线路、站台与时刻字段。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E1_L2_ZH_001",
+    "cat": "schedule",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：删除前置简写版，只保留后续13:30至20:00的精确议程，并统一会务联系方式。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E1_L2_ZH_002",
+    "cat": "schedule",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：合并重复的周二、周四和重点事项块，只保留一份完整计划；将所有成员代号统一为 STAFF-SAFE-X 格式。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E1_L2_ZH_003",
+    "cat": "schedule",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "创客空间排班按木工和电子课程组织，人员使用 STAFF-SAFE，课程名具体，预约渠道使用自然的“电话”而非裸 token 名称。",
+    "suggest": "已完成机械课程词和渠道名修订；发布前仅复核六区排班、人员、联系方式和 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E1_L3_ZH_001",
+    "cat": "schedule",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：删除整段质检挑战条，补写 11:00 至 12:40 的圆桌、茶歇或午餐前议程，并核对两天时间线连续性。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E1_L3_ZH_002",
+    "cat": "schedule",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：删除质检挑战条，补入十一月六至八项教学、考试和校园活动，并重新核对各月日期与星期。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E1_L3_ZH_003",
+    "cat": "schedule",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：删除“流程A共8台、流程B2台”，改为“已排项目5项；3号室14:00加急项目1项待确认”，并删除质检区。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "D4_L1_ZH_001",
+    "cat": "dashboard",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：删除东北区156万元这一第六名，使其余五区恰好合计2856万元；同步区域排名文本并保留总销售额。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "D4_L1_ZH_002",
+    "cat": "dashboard",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "节点、负载、告警、流量和值班巡检均围绕同一运维中心，在线128/130与2台维护相符。",
+    "suggest": "无需实质修改；发布前仅核验SAFE占位符、告警阈值和联系方式的最终取值。",
+    "priority": "P3"
+  },
+  {
+    "pid": "D4_L1_ZH_003",
+    "cat": "dashboard",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "出入库、待发订单、库区状态、温控和排班构成完整仓储场景，异常23件与破损12件、缺货11件相加一致。",
+    "suggest": "无需实质修改；发布前核验SAFE占位符及订单、库存、温湿度等最终事实。",
+    "priority": "P3"
+  },
+  {
+    "pid": "D4_L2_ZH_001",
+    "cat": "dashboard",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：删除团队奖励和下月销售冲刺两句，改为与市场行情、持仓风险或交易系统相关的快讯；将支付标签样例资产改为总资产或账户总资产。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "D4_L2_ZH_002",
+    "cat": "dashboard",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：仅在一个合适位置保留一次CTA，其余五处删除；如各区确需交互入口，应分别改成查看订单、品类、漏斗、分群和队列等具体动作。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "D4_L2_ZH_003",
+    "cat": "dashboard",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：删除物流效率指标和仓储巡检句，替换为园区通行效率、接驳准点率、公共设施巡检或事件闭环率等同域指标。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "D4_L3_ZH_001",
+    "cat": "dashboard",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "制造管控看板的产量、质量、设备和班次信息闭合，数据刷新日期已使用规范 DATE-SAFE。",
+    "suggest": "已完成日期 token 修订；发布前仅复核八区文字、指标和 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "D4_L3_ZH_002",
+    "cat": "dashboard",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "机房看板的环境、功率、告警和备件信息闭合，预计到库日期已使用规范 DATE-SAFE。",
+    "suggest": "已完成日期 token 修订；发布前仅复核八区文字、阈值和 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "D4_L3_ZH_003",
+    "cat": "dashboard",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "航空运行看板的航班、机组、天气和服务信息闭合，系统日期已使用规范 DATE-SAFE。",
+    "suggest": "已完成日期 token 修订；发布前仅复核八区文字、运行指标和 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "D1_L1_ZH_001",
+    "cat": "webpage",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "笔记本商品页的配置、价格、分期、服务和评价闭合，上架时间已使用规范 DATE-SAFE。",
+    "suggest": "已完成日期 token 修订；发布前仅复核四区文字、价格和 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "D1_L1_ZH_002",
+    "cat": "webpage",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "新闻标题、正文、来源和相关报道围绕同一事件，电头、事件与更新时间均已使用规范 DATE-SAFE。",
+    "suggest": "已完成三处日期 token 修订；发布前仅复核六区文字、事件字段和 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "D1_L1_ZH_003",
+    "cat": "webpage",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "政务门户的服务入口、通知、查询与备案信息围绕同一页面，三条通知及启动日已使用四个语义独立的 DATE-SAFE token。",
+    "suggest": "已完成日期 token 拆分；发布前仅复核五区文字、备案字段和 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "D1_L2_ZH_001",
+    "cat": "webpage",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "课程信息、大纲、讲师介绍和评价共同构成完整课程页，所有目标文字均已直接嵌入对应版面，不再使用后置精确块回指。",
+    "suggest": "已完成精确块回指自然化；发布前仅复核六区文字、课程事实和 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "D1_L2_ZH_002",
+    "cat": "webpage",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "课程内容、要求、练习、支持与简介构成完整工作坊页面，六个目标块已改为具体网页载体引导。",
+    "suggest": "已完成编号区域脚手架自然化；发布前仅复核六区文字、课程字段和 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "D1_L2_ZH_003",
+    "cat": "webpage",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "展馆信息、体验、设施、反馈与预约规则主题一致，六个目标块已改为具体展馆网页载体引导。",
+    "suggest": "已完成编号区域脚手架自然化；发布前仅复核六区文字、票价时段和 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "D1_L3_ZH_001",
+    "cat": "webpage",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：补充第二节或将第三节改为第二节；删除通用导航质检条，或将其替换为与微服务文章相关的代码、命令和符号测试片段。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "D1_L3_ZH_002",
+    "cat": "webpage",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：合并并仅保留一处OCR易混淆测试；若测试不是业务内容要求，删除质检挑战条，保留课程和讲师页面信息即可。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "D1_L3_ZH_003",
+    "cat": "webpage",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：删除固定质检条，或替换为房源编号、面积单位、楼层、轨道距离和预约状态等场景相关的OCR挑战文本。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "D2_L1_ZH_001",
+    "cat": "slide",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "年度经营指标、下一年战略、页脚和保密水印共同构成完整商务汇报页，无明显外来段落。",
+    "suggest": "无需实质修改；发布前核验公司、报告人及营收、份额、设备数等最终事实。",
+    "priority": "P3"
+  },
+  {
+    "pid": "D2_L1_ZH_002",
+    "cat": "slide",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "四摄系统、整机配置、价格、颜色和开售信息均围绕同一手机发布页，内容完整独立。",
+    "suggest": "无需实质修改；发布前核验处理器、影像规格、电池、售价和开售日期等最终事实。",
+    "priority": "P3"
+  },
+  {
+    "pid": "D2_L1_ZH_003",
+    "cat": "slide",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "交叉验证策略、实践建议和课程页脚均围绕机器学习模型评估主题，无明显数值或语义冲突。",
+    "suggest": "无需实质修改；发布前核验课程、教师、教材和学期信息，并按目标教学口径复核方法建议。",
+    "priority": "P3"
+  },
+  {
+    "pid": "D2_L2_ZH_001",
+    "cat": "slide",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：删除末区泛运营KPI，改为展区覆盖城市、展台日均访客、互动复访率、展商合作数等明确同口径数据，并说明统计周期。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "D2_L2_ZH_002",
+    "cat": "slide",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：删除前面的短版下周计划和页脚，仅保留后续精确文字块；或将两版逐字统一，避免模型在同一位置呈现冲突内容。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "D2_L2_ZH_003",
+    "cat": "slide",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "工具、资源、工作节奏和团队支持均属于同一入职培训页，六个目标块已改为具体幻灯片载体引导。",
+    "suggest": "已完成编号区域脚手架自然化；发布前仅复核六区文字、组织字段和 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "D2_L3_ZH_001",
+    "cat": "slide",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：删除通用Q3 Revenue质检条，或替换为本页已有收入点、毛利率、净利率和年份列的专属OCR测试。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "D2_L3_ZH_002",
+    "cat": "slide",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：将该句拆为索引规模：SAFE-COUNT、检索延迟：小于SAFE-LATENCY；删除Q3 Revenue条或换成架构图中的协议、QPS和SLA测试文本。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "D2_L3_ZH_003",
+    "cat": "slide",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：删除通用营收质检条，或改为方法名、p值、准确率、上下标和论文编号等学术图表专属压力测试。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "D3_L1_ZH_001",
+    "cat": "social_media",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：将首条评论中的川西改为滇南环线，使评论与正文的明年目标一致。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "D3_L1_ZH_002",
+    "cat": "social_media",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "冬季干皮面霜清单、成分卖点、价格、标签和评论均围绕同一护肤笔记。",
+    "suggest": "无需实质修改；发布前核验产品、价格、成分功效和平台互动数字的最终事实与合规表述。",
+    "priority": "P3"
+  },
+  {
+    "pid": "D3_L1_ZH_003",
+    "cat": "social_media",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：将媒体支付标签改为媒体认证或官方认证，并核验HANDLECODE占位符是否应分别对应两个不同账号。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "D3_L2_ZH_001",
+    "cat": "social_media",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "排骨教程的置顶说明、互动数字和三组评论自然衔接，六个目标块已改为具体评论页载体引导。",
+    "suggest": "已完成编号区域脚手架自然化；发布前仅复核六区文字、食谱内容和 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "D3_L2_ZH_002",
+    "cat": "social_media",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：删除从样例折扣码开始的整段电商促销，改为回答引用、延伸阅读、课程资料或学习工具说明。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "D3_L2_ZH_003",
+    "cat": "social_media",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：删除前半重复短版，只保留后续五块精确文字；同时统一播放、点赞、简介和评论口径，避免同屏重复。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "D3_L3_ZH_001",
+    "cat": "social_media",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：删除通用QA条，或改成群内分享的命令、loss值、学习率和代码片段等自然消息。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "D3_L3_ZH_002",
+    "cat": "social_media",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：删除评论末尾易混淆串，不新增测试标注，并同步对应gt_region文本。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "D3_L3_ZH_003",
+    "cat": "social_media",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：删除质检条；将参与人数改为5.9万，保留三档票数并重新计算相应百分比。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "C4_L1_ZH_001",
+    "cat": "product_pkg",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "薯片卖点、营养、过敏原、生产与标准信息闭合，场景已统一为包装袋正背面展开，各区载体描述一致。",
+    "suggest": "已完成包装载体修订；发布前仅复核五区文字、食品字段和 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "C4_L1_ZH_002",
+    "cat": "product_pkg",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "洗发水功效、成分、用法和厂家信息完整，条形码已改用 BARCODE-SAFE，与服务热线 TELCODE 明确分离。",
+    "suggest": "已完成条码 token 类型修订；发布前仅复核五区文字、产品字段和 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "C4_L1_ZH_003",
+    "cat": "product_pkg",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "牛奶包装的卖点、营养、生产和储存信息闭合，载体已统一为包装盒正面与侧面，条形码使用 BARCODE-SAFE。",
+    "suggest": "已完成包装载体与条码 token 修订；发布前仅复核五区文字、营养字段和 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "C4_L2_ZH_001",
+    "cat": "product_pkg",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：将末尾括注改为“普通食品展示样张，不替代均衡饮食或药品”，保留全文普通食品属性。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "C4_L2_ZH_002",
+    "cat": "product_pkg",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "果茶的品牌、配料、饮用、储藏和防伪信息闭合，六个文字块已自然映射到 500ml 瓶身标签展开版。",
+    "suggest": "已完成编号区域脚手架与包装载体自然化；发布前仅复核六区文字、产品字段和 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "C4_L2_ZH_003",
+    "cat": "product_pkg",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "笔记本性能、显示、清单、整机参数和合规信息相互匹配，文字已直接嵌入包装盒正侧背对应区域，无后置精确块回指。",
+    "suggest": "已完成包装载体与精确块回指自然化；发布前仅复核六区文字、硬件字段和 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "C4_L3_ZH_001",
+    "cat": "product_pkg",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "方便面营养、食用、储存、生产与标准信息闭合，载体已统一为桶装外包装展开图，条形码使用 BARCODE-SAFE。",
+    "suggest": "已完成包装载体与条码 token 修订；发布前仅复核八区文字、食品字段和 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "C4_L3_ZH_002",
+    "cat": "product_pkg",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：删除末尾易混淆串，不将OCR测试保留在包装正文，并复核功效与备案字段。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "C4_L3_ZH_003",
+    "cat": "product_pkg",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：删除通用挑战条，改为罐体真实的日期、温度、克数、营养单位和回收标识字段。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E2_L1_ZH_001",
+    "cat": "form",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "创业大赛报名者信息、参赛项目、截止日期、决赛地点和联系方式构成完整报名表。",
+    "suggest": "无需实质修改；发布前核验个人、证件、单位、地点和联系方式占位符及赛事日期。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E2_L1_ZH_002",
+    "cat": "form",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：将健康顾问B统一替换为同部门同事或代理人STAFF-SAFE-D，并将AUDITCODE改为员工工号占位符。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E2_L1_ZH_003",
+    "cat": "form",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "入职体检基本信息、各检查值、结论和复查建议相互一致，未见串条。",
+    "suggest": "无需实质修改；发布前由专业人员核验参考范围、医学结论、有效期及所有个人占位符。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E2_L2_ZH_001",
+    "cat": "form",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：删除参赛者和主办方句，改为借出方、借用方、资产管理员各执一份。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E2_L2_ZH_002",
+    "cat": "form",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：删除两条请假注意事项，替换为领取凭证、缺货替代确认、归还时限或损坏登记规则。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E2_L2_ZH_003",
+    "cat": "form",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：删除整段体检注意事项，替换为入场核验、展区安全、资料领取、离场登记和团体接待规则。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E2_L3_ZH_001",
+    "cat": "form",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：将57241标为“本期应扣点数”，将5639标为“应退点数”，在同一区域写明两步公式，并删除通用质检条。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E2_L3_ZH_002",
+    "cat": "form",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：保留课程业务正文，删除质检挑战条和重复易混淆串，并同步对应gt_regions。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E2_L3_ZH_003",
+    "cat": "form",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：保留仓储正文，删除通用质检条和易混淆串，并同步对应gt_regions。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E3_L1_ZH_001",
+    "cat": "certificate",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "咖啡认证的等级、92.5分、三年有效期、协会、防伪和获证对象信息闭合。",
+    "suggest": "无需实质修改；发布前核验获证人、证书号、协会、有效期和防伪入口占位符。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E3_L1_ZH_002",
+    "cat": "certificate",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "瑜伽500小时培训、科目成绩、签发机构和2024年9月15日至2027年9月14日有效期一致。",
+    "suggest": "无需实质修改；发布前核验姓名、证书编号、培训机构、课时和日期等最终事实。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E3_L1_ZH_003",
+    "cat": "certificate",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "文学奖证书的获奖者、作品、评审与出版信息围绕同一事件，半掩码 ISBN 已替换为规范的 ISBN-SAFE-CODE。",
+    "suggest": "已完成 ISBN 隐私占位修订；发布前仅复核五区文字、奖项字段和 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E3_L2_ZH_001",
+    "cat": "certificate",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：删除证书、防伪钢印和人才数据库查验段，替换为报名二维码、签到凭证、宠物免疫证明核验和活动咨询信息。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E3_L2_ZH_002",
+    "cat": "certificate",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：删除合同条款排除清单，改为课程项目卡不构成商业合作或投资承诺，并补充课程成果和评审用途说明。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E3_L2_ZH_003",
+    "cat": "certificate",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：删除文学创作营和奖金领取段，替换为航模等级、飞行考核、设备安全培训或后续进阶课程权益。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E3_L3_ZH_001",
+    "cat": "certificate",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：将证书标题、认证等级和达成条件统一为特级大师（Grandmaster/GM Norm），删除质检挑战条；保留 Norm 1、Norm 2、Norm 3 的三项编号。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E3_L3_ZH_002",
+    "cat": "certificate",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：将项目名去重为TaskFlow Sample，将完成率改为96.9%，并删除通用QA条。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E3_L3_ZH_003",
+    "cat": "certificate",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：删除开场“有日方主考官签章”，保留现有SPGA主考官和协考官体系，并删除工作标签末尾的易混淆串。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E4_L1_ZH_001",
+    "cat": "code",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：若展示Python，将语言名统一为Python 3.11并把语规范改为语法；若保留SerpentLang，则重写文件扩展名、库和语法。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E4_L1_ZH_002",
+    "cat": "code",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "SQL筛选、聚合、排序与五行结果一致，均值与总额的细小差异可由单行显示值取整解释。",
+    "suggest": "无需实质修改；发布前核验表名、字段名、结果精度和数据事实，并统一小数显示规则。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E4_L1_ZH_003",
+    "cat": "code",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：在git status前补充git switch feature/payment，或统一两处为同一分支；将光付回调改为支付回调。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E4_L2_ZH_001",
+    "cat": "code",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：删除前半旧实现，只保留含loading的完整精确代码；统一userId与id参数命名，并将Verce修正为完整工具或平台名称。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E4_L2_ZH_002",
+    "cat": "code",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：将order-servi补全为order-service或实际服务名，并核验文件、函数、端口和状态栏信息。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E4_L2_ZH_003",
+    "cat": "code",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：合并成一份合法Deployment YAML，把containers置于spec.template.spec下，统一镜像版本，并实际加入resources.requests与limits后再保留限额说明。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E4_L3_ZH_001",
+    "cat": "code",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：删除固定QA条，以该代码文件真实的版本注释、许可证头和错误日志替代。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E4_L3_ZH_002",
+    "cat": "code",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：将订单号改为ORDER-SAFE-01466，并删除固定QA条。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "E4_L3_ZH_003",
+    "cat": "code",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：将摘要改为“通过206、失败4、跳过0”，保留冒烟测试8/12的分项，并删除同构QA条。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F1_L1_ZH_001",
+    "cat": "caption",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：为CHAR-SAFE及最后一句补齐逐句英文译文，并将说明改为中英文各四行。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F1_L1_ZH_002",
+    "cat": "caption",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "新闻画面的展览时间、展品件数、署名、版权和背景说明均围绕同一展览报道。",
+    "suggest": "无需实质修改；发布前核验日期、机构、记者、版权和展品数量等最终事实及占位符。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F1_L1_ZH_003",
+    "cat": "caption",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "青花盘的年代、材质、尺寸、描述、馆藏和导览信息完整一致。",
+    "suggest": "无需实质修改；发布前核验器物年代、尺寸、藏品号、馆名和导览信息占位符。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F1_L2_ZH_001",
+    "cat": "caption",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "航拍纪录的节目、双层字幕、景点数据、制作署名和播出信息一致，六个文字块已映射到自然视频画面载体。",
+    "suggest": "已完成编号区域脚手架自然化；发布前仅复核六区文字、景点数据和 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F1_L2_ZH_002",
+    "cat": "caption",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：删除前置错误版本，只保留使用lambda的精确文字块；同时明确载体究竟是课堂板书还是PPT，不要保留二选一描述。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F1_L2_ZH_003",
+    "cat": "caption",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：合并重复配料区并统一陈皮用量；若陈皮为可选，明确写可选半片或不放，避免两个版本同屏。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F1_L3_ZH_001",
+    "cat": "caption",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：删除工程图QA条，以演唱会票价、场次、歌曲名和舞台区位等同域OCR文字替代。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F1_L3_ZH_002",
+    "cat": "caption",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：删除工程图QA条，改为比分、节次、球员数据、命中率和计时器等体育转播专属OCR测试。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F1_L3_ZH_003",
+    "cat": "caption",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：删除工程图QA条和证书说明，替换为新闻来源、记者署名、播出时间、版权及字幕校验信息。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F2_L1_ZH_001",
+    "cat": "dialogue",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "约饭地点、参与人、接送安排、饭后KTV和升职庆祝前后承接自然。",
+    "suggest": "无需实质修改；发布前核验人员、地点、时间和联系信息占位符。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F2_L1_ZH_002",
+    "cat": "dialogue",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "耳机换货咨询的故障、政策与处理时效闭合，订单号已改用 ORDER-SAFE，不再混用电话 token。",
+    "suggest": "已完成订单号 token 修订；发布前仅复核四区文字、售后政策和 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F2_L1_ZH_003",
+    "cat": "dialogue",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：将回答改写为单句并加入明确比喻，例如把目标概念比作某种日常物件或流程；保持信息完整但不换段。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F2_L2_ZH_001",
+    "cat": "dialogue",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "八人需求评审群围绕三项需求、PRD、SDK、测试与会议任务形成完整协作链，所有文字已直接嵌入对应消息气泡。",
+    "suggest": "已完成精确块回指自然化；发布前仅复核六区文字、会议事实和 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F2_L2_ZH_002",
+    "cat": "dialogue",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "组件库分享的主持问答、迁移方案和会议纪要完整，六个文字块已映射到会议标题、左右气泡和纪要卡片。",
+    "suggest": "已完成编号区域脚手架自然化；发布前仅复核六区文字、迁移事实和 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F2_L2_ZH_003",
+    "cat": "dialogue",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "摄影咨询的参数诊断、课程建议和练习记录完整，六个文字块已映射到课程标题、咨询气泡和建议卡片。",
+    "suggest": "已完成编号区域脚手架自然化；发布前仅复核六区文字、摄影参数和 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F2_L3_ZH_001",
+    "cat": "dialogue",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：删除固定QA条，改写成会议中确认版本和上线风险的自然问答。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F2_L3_ZH_002",
+    "cat": "dialogue",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：删除固定QA条，改为家庭成员确认日期、金额和购物清单的自然消息。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F2_L3_ZH_003",
+    "cat": "dialogue",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：删除通用QA条和较短的重复系统消息，只保留一份完整首通、奖励和版本公告，并统一时间及任务名称。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F3_L1_ZH_001",
+    "cat": "comic_panel",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "校园考试搞笑漫画起承转合完整，角色对话、结尾梗、下期预告和互动数据均属同一话。",
+    "suggest": "无需实质修改；发布前核验作者、平台、期数和互动数据等最终事实或占位符。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F3_L1_ZH_002",
+    "cat": "comic_panel",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "暗恋、等待、表白、未完待续和评论互动形成完整条漫情节。",
+    "suggest": "无需实质修改；发布前核验作者、奖项、章节、更新时间和互动数字等最终事实。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F3_L1_ZH_003",
+    "cat": "comic_panel",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "战力排行是世界观补充信息，不要求每名高评级角色都在本页出手；林晓月本页旁观不足以证明战力矛盾，未发现可定位的实质错误。",
+    "suggest": "无需实质修改；发布前仅核验角色名、章节号、排行口径和互动数据。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F3_L2_ZH_001",
+    "cat": "comic_panel",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原创剧场后台六格漫画以纸月亮升降故障为核心，发现、隔离、排障、空载测试和准时开场的时间线闭合；人物、道具、标识和画面均明确为原创，不含真实品牌、既有角色或特定艺术家风格模仿。",
+    "suggest": "已完成原少年战斗漫画、杂志刊名、觉醒台词及发行包装的整体替换；发布前仅复核六区文字、时间线和 stats。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F3_L2_ZH_002",
+    "cat": "comic_panel",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "科幻数据防御六区自洽，90秒缓冲、同步进度82%和剩余47秒在情节上可以成立。",
+    "suggest": "无需实质修改；发布前核验角色、系统、日期和技术参数占位符，并保持进度与倒计时口径一致。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F3_L2_ZH_003",
+    "cat": "comic_panel",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：删除前置短版，仅保留后续六个完整精确块；统一象声词和标点，避免同屏出现两版近义内容。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F3_L3_ZH_001",
+    "cat": "comic_panel",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：删除末尾易混淆串，不把OCR测试拼入官方账号与官网正文。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F3_L3_ZH_002",
+    "cat": "comic_panel",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：删除固定质检条，以比赛技能名、连击数、赛季比分和系统公告等同域文字替代。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F3_L3_ZH_003",
+    "cat": "comic_panel",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：将ISBN改为ISBN-SAFE-CODE专用占位符，并删除末尾易混淆串。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F4_L1_ZH_001",
+    "cat": "infographic",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "统计截止日与报告发布日期可以不同；截至2024年6月、2024年12月发布本身不构成矛盾，未发现可定位的实质错误。",
+    "suggest": "无需实质修改；发布前仅核验报告期、发布日期、机构名和各指标来源。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F4_L1_ZH_002",
+    "cat": "infographic",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：注明采用的指南版本和适用人群；将立即就医改为重复测量确认，若伴症状或持续显著升高应及时就医，并由医学专业人员复核。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F4_L1_ZH_003",
+    "cat": "infographic",
+    "lvl": "L1",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "四色垃圾分类、常见例子、投放要求、时间和地点均围绕同一社区指引。",
+    "suggest": "无需实质修改；发布前按当地最新分类规则核验具体品类、投放时间、管理办法和联系信息。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F4_L2_ZH_001",
+    "cat": "infographic",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：统一数据单位为片段或标注点，并给出训练、验证、测试划分之和；若使用扩增，明确从7200片段扩增到12000训练样本的方法和去重规则。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F4_L2_ZH_002",
+    "cat": "infographic",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：删除整段ESG指标，替换为项目周期、里程碑、负责人、风险和交付质量；若项目本身是ESG项目，应在标题和全篇明确该主题。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F4_L2_ZH_003",
+    "cat": "infographic",
+    "lvl": "L2",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：将综合演示时长1000分钟以上改为200分钟以内，保留单套电源设定，并把汽车化补能术语改为设备供电术语。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F4_L3_ZH_001",
+    "cat": "infographic",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：统一为展会运营主题，删除操作系统、汽车和业务线经营指标，改为展区、访客、展商、互动和成交线索指标，并删除通用QA条。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F4_L3_ZH_002",
+    "cat": "infographic",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：删除Global Data Index质检条，将信号分子统一改为信使RNA并按mRNA类型重写定义，由专业人员复核科学表述。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  },
+  {
+    "pid": "F4_L3_ZH_003",
+    "cat": "infographic",
+    "lvl": "L3",
+    "indep": "是",
+    "trace": "无",
+    "analysis": "原审计问题已按逐条计划修复；当前内容可独立理解，事实口径、版面位置与字段标注已复核，未发现仍需实质修改的问题。",
+    "suggest": "已完成原计划：将标题改为TOP10，删除QA区；占比分别改为云塔46.1%、星桥38.1%、南序40.8%、蓝湾56.6%、穹光30.4%，并删除“均超40%”。 后续仅复核正文、gt_regions、stats、占位符及安全字段一致性。",
+    "priority": "P3"
+  }
+]

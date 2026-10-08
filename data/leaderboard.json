@@ -1,0 +1,575 @@
+{
+  "source": {
+    "kind": "manuscript_table",
+    "table_label": "tab:leaderboard",
+    "paper": "paper/UltraText_Bench.pdf",
+    "updated": "2026-10-07",
+    "paper_sha256": "c8f1104e5d729c4820ede0bfd93f916b8b64cfd6d49cd53d1b3d4ab65c2d1a4f"
+  },
+  "score_range": [
+    0,
+    100
+  ],
+  "overall_aggregation": "Equal mean of EN and ZH prompt-macro scores",
+  "level_aggregation": "Language-specific prompt-macro composite",
+  "composite_weights": {
+    "text_fidelity": 0.6,
+    "text_clarity": 0.3,
+    "spatial_quality": 0.05,
+    "scene_quality": 0.05
+  },
+  "models": [
+    {
+      "model": "Boogu-Image-0.1-Base",
+      "access": "open-weight",
+      "composite": 77.89,
+      "text_fidelity": 75.77,
+      "text_clarity": 78.31,
+      "spatial_quality": 88.04,
+      "scene_quality": 90.53,
+      "levels": {
+        "L1": {
+          "EN": 84.16,
+          "ZH": 87.75
+        },
+        "L2": {
+          "EN": 76.42,
+          "ZH": 78.11
+        },
+        "L3": {
+          "EN": 57.67,
+          "ZH": 83.23
+        }
+      }
+    },
+    {
+      "model": "Qwen-Image-2512",
+      "access": "open-weight",
+      "composite": 67.96,
+      "text_fidelity": 59.3,
+      "text_clarity": 79.89,
+      "spatial_quality": 79.13,
+      "scene_quality": 88.93,
+      "levels": {
+        "L1": {
+          "EN": 86.5,
+          "ZH": 89.47
+        },
+        "L2": {
+          "EN": 71.57,
+          "ZH": 67.44
+        },
+        "L3": {
+          "EN": 42.86,
+          "ZH": 49.9
+        }
+      }
+    },
+    {
+      "model": "Boogu-Image-0.1-Turbo",
+      "access": "open-weight",
+      "composite": 67.79,
+      "text_fidelity": 66.27,
+      "text_clarity": 64.86,
+      "spatial_quality": 84.37,
+      "scene_quality": 86.9,
+      "levels": {
+        "L1": {
+          "EN": 73.13,
+          "ZH": 81.3
+        },
+        "L2": {
+          "EN": 62.81,
+          "ZH": 72.61
+        },
+        "L3": {
+          "EN": 37.24,
+          "ZH": 79.63
+        }
+      }
+    },
+    {
+      "model": "Z-Image-Base",
+      "access": "open-weight",
+      "composite": 61.92,
+      "text_fidelity": 55.51,
+      "text_clarity": 70.6,
+      "spatial_quality": 70.88,
+      "scene_quality": 77.72,
+      "levels": {
+        "L1": {
+          "EN": 82.92,
+          "ZH": 84.66
+        },
+        "L2": {
+          "EN": 67.54,
+          "ZH": 64.41
+        },
+        "L3": {
+          "EN": 26.34,
+          "ZH": 45.64
+        }
+      }
+    },
+    {
+      "model": "Z-Image-Turbo",
+      "access": "open-weight",
+      "composite": 54.38,
+      "text_fidelity": 40.75,
+      "text_clarity": 74.41,
+      "spatial_quality": 69.41,
+      "scene_quality": 82.57,
+      "levels": {
+        "L1": {
+          "EN": 79.72,
+          "ZH": 73.66
+        },
+        "L2": {
+          "EN": 57.42,
+          "ZH": 52.36
+        },
+        "L3": {
+          "EN": 25.14,
+          "ZH": 37.99
+        }
+      }
+    },
+    {
+      "model": "HiDream-O1-Image",
+      "access": "open-weight",
+      "composite": 45.56,
+      "text_fidelity": 33.26,
+      "text_clarity": 62.56,
+      "spatial_quality": 60.51,
+      "scene_quality": 76.1,
+      "levels": {
+        "L1": {
+          "EN": 80.95,
+          "ZH": 55.33
+        },
+        "L2": {
+          "EN": 51.51,
+          "ZH": 27.8
+        },
+        "L3": {
+          "EN": 29.53,
+          "ZH": 28.23
+        }
+      }
+    },
+    {
+      "model": "LLaDA-Image",
+      "access": "open-weight",
+      "composite": 43.92,
+      "text_fidelity": 31.65,
+      "text_clarity": 59.87,
+      "spatial_quality": 64.76,
+      "scene_quality": 74.51,
+      "levels": {
+        "L1": {
+          "EN": 62.96,
+          "ZH": 54.72
+        },
+        "L2": {
+          "EN": 47.4,
+          "ZH": 33.44
+        },
+        "L3": {
+          "EN": 31.23,
+          "ZH": 33.78
+        }
+      }
+    },
+    {
+      "model": "LLaDA-Image-Turbo",
+      "access": "open-weight",
+      "composite": 41.29,
+      "text_fidelity": 24.03,
+      "text_clarity": 67.24,
+      "spatial_quality": 60.75,
+      "scene_quality": 73.12,
+      "levels": {
+        "L1": {
+          "EN": 57.93,
+          "ZH": 39.69
+        },
+        "L2": {
+          "EN": 51.34,
+          "ZH": 31.29
+        },
+        "L3": {
+          "EN": 36.61,
+          "ZH": 30.89
+        }
+      }
+    },
+    {
+      "model": "Qwen-Image",
+      "access": "open-weight",
+      "composite": 41.27,
+      "text_fidelity": 33.75,
+      "text_clarity": 50.07,
+      "spatial_quality": 52.87,
+      "scene_quality": 67.1,
+      "levels": {
+        "L1": {
+          "EN": 73.83,
+          "ZH": 64.39
+        },
+        "L2": {
+          "EN": 42.45,
+          "ZH": 32.66
+        },
+        "L3": {
+          "EN": 17.61,
+          "ZH": 16.69
+        }
+      }
+    },
+    {
+      "model": "FLUX.2 [Dev]",
+      "access": "open-weight",
+      "composite": 41.03,
+      "text_fidelity": 27.86,
+      "text_clarity": 60.81,
+      "spatial_quality": 51.91,
+      "scene_quality": 69.42,
+      "levels": {
+        "L1": {
+          "EN": 86.79,
+          "ZH": 33.29
+        },
+        "L2": {
+          "EN": 63.61,
+          "ZH": 14.97
+        },
+        "L3": {
+          "EN": 35.66,
+          "ZH": 11.84
+        }
+      }
+    },
+    {
+      "model": "HiDream-O1-Image-Dev",
+      "access": "open-weight",
+      "composite": 40.44,
+      "text_fidelity": 24.58,
+      "text_clarity": 63.06,
+      "spatial_quality": 58.69,
+      "scene_quality": 76.7,
+      "levels": {
+        "L1": {
+          "EN": 69.76,
+          "ZH": 46.51
+        },
+        "L2": {
+          "EN": 45.29,
+          "ZH": 26.66
+        },
+        "L3": {
+          "EN": 29.27,
+          "ZH": 25.12
+        }
+      }
+    },
+    {
+      "model": "Hunyuan-Image-3.0",
+      "access": "open-weight",
+      "composite": 29.93,
+      "text_fidelity": 20.43,
+      "text_clarity": 39.32,
+      "spatial_quality": 51.83,
+      "scene_quality": 65.55,
+      "levels": {
+        "L1": {
+          "EN": 47.86,
+          "ZH": 37.63
+        },
+        "L2": {
+          "EN": 33.74,
+          "ZH": 22.81
+        },
+        "L3": {
+          "EN": 17.46,
+          "ZH": 20.08
+        }
+      }
+    },
+    {
+      "model": "FLUX.2 [Klein] 9B",
+      "access": "open-weight",
+      "composite": 22.94,
+      "text_fidelity": 14.6,
+      "text_clarity": 32.02,
+      "spatial_quality": 36.86,
+      "scene_quality": 54.54,
+      "levels": {
+        "L1": {
+          "EN": 59.96,
+          "ZH": 11.64
+        },
+        "L2": {
+          "EN": 43.33,
+          "ZH": 5.09
+        },
+        "L3": {
+          "EN": 13.69,
+          "ZH": 3.91
+        }
+      }
+    },
+    {
+      "model": "FLUX.2 [Klein] 4B",
+      "access": "open-weight",
+      "composite": 19.58,
+      "text_fidelity": 10.86,
+      "text_clarity": 29.66,
+      "spatial_quality": 31.98,
+      "scene_quality": 51.37,
+      "levels": {
+        "L1": {
+          "EN": 56.17,
+          "ZH": 7.68
+        },
+        "L2": {
+          "EN": 35.62,
+          "ZH": 4.54
+        },
+        "L3": {
+          "EN": 9.84,
+          "ZH": 3.65
+        }
+      }
+    },
+    {
+      "model": "FLUX.1 [Dev]",
+      "access": "open-weight",
+      "composite": 18.17,
+      "text_fidelity": 0.93,
+      "text_clarity": 49.19,
+      "spatial_quality": 17.52,
+      "scene_quality": 39.68,
+      "levels": {
+        "L1": {
+          "EN": 24.88,
+          "ZH": 12.17
+        },
+        "L2": {
+          "EN": 23.31,
+          "ZH": 16.12
+        },
+        "L3": {
+          "EN": 18.63,
+          "ZH": 13.92
+        }
+      }
+    },
+    {
+      "model": "SD3.5 Large",
+      "access": "open-weight",
+      "composite": 7.48,
+      "text_fidelity": 0.35,
+      "text_clarity": 18.53,
+      "spatial_quality": 9.04,
+      "scene_quality": 25.23,
+      "levels": {
+        "L1": {
+          "EN": 18.48,
+          "ZH": 1.22
+        },
+        "L2": {
+          "EN": 13.2,
+          "ZH": 1.91
+        },
+        "L3": {
+          "EN": 9.14,
+          "ZH": 0.94
+        }
+      }
+    },
+    {
+      "model": "GPT Image 2 [Low]",
+      "access": "api-only",
+      "composite": 99.35,
+      "text_fidelity": 99.23,
+      "text_clarity": 99.52,
+      "spatial_quality": 99.41,
+      "scene_quality": 99.57,
+      "levels": {
+        "L1": {
+          "EN": 99.73,
+          "ZH": 99.32
+        },
+        "L2": {
+          "EN": 99.58,
+          "ZH": 99.48
+        },
+        "L3": {
+          "EN": 99.36,
+          "ZH": 98.61
+        }
+      }
+    },
+    {
+      "model": "Nano Banana 2",
+      "access": "api-only",
+      "composite": 97.0,
+      "text_fidelity": 95.9,
+      "text_clarity": 98.68,
+      "spatial_quality": 98.16,
+      "scene_quality": 99.0,
+      "levels": {
+        "L1": {
+          "EN": 98.82,
+          "ZH": 96.46
+        },
+        "L2": {
+          "EN": 97.32,
+          "ZH": 95.48
+        },
+        "L3": {
+          "EN": 96.82,
+          "ZH": 97.12
+        }
+      }
+    },
+    {
+      "model": "Seedream 5.0 Pro",
+      "access": "api-only",
+      "composite": 91.45,
+      "text_fidelity": 88.92,
+      "text_clarity": 94.79,
+      "spatial_quality": 95.73,
+      "scene_quality": 97.33,
+      "levels": {
+        "L1": {
+          "EN": 97.72,
+          "ZH": 97.6
+        },
+        "L2": {
+          "EN": 93.63,
+          "ZH": 93.58
+        },
+        "L3": {
+          "EN": 75.36,
+          "ZH": 90.81
+        }
+      }
+    },
+    {
+      "model": "Qwen-Image-2.0-Pro",
+      "access": "api-only",
+      "composite": 90.21,
+      "text_fidelity": 89.69,
+      "text_clarity": 89.78,
+      "spatial_quality": 94.18,
+      "scene_quality": 95.14,
+      "levels": {
+        "L1": {
+          "EN": 95.74,
+          "ZH": 94.49
+        },
+        "L2": {
+          "EN": 85.6,
+          "ZH": 92.89
+        },
+        "L3": {
+          "EN": 80.59,
+          "ZH": 91.99
+        }
+      }
+    },
+    {
+      "model": "Qwen-Image-3.0",
+      "access": "api-only",
+      "composite": 88.33,
+      "text_fidelity": 87.81,
+      "text_clarity": 87.63,
+      "spatial_quality": 93.15,
+      "scene_quality": 93.97,
+      "levels": {
+        "L1": {
+          "EN": 91.94,
+          "ZH": 86.33
+        },
+        "L2": {
+          "EN": 88.74,
+          "ZH": 86.91
+        },
+        "L3": {
+          "EN": 85.05,
+          "ZH": 91.03
+        }
+      }
+    },
+    {
+      "model": "WAN-2.7-Image-Pro",
+      "access": "api-only",
+      "composite": 85.73,
+      "text_fidelity": 79.72,
+      "text_clarity": 94.84,
+      "spatial_quality": 92.84,
+      "scene_quality": 95.85,
+      "levels": {
+        "L1": {
+          "EN": 94.98,
+          "ZH": 90.14
+        },
+        "L2": {
+          "EN": 90.03,
+          "ZH": 81.46
+        },
+        "L3": {
+          "EN": 75.61,
+          "ZH": 82.14
+        }
+      }
+    },
+    {
+      "model": "GPT Image 1.5 [High]",
+      "access": "api-only",
+      "composite": 57.96,
+      "text_fidelity": 48.86,
+      "text_clarity": 69.69,
+      "spatial_quality": 72.37,
+      "scene_quality": 82.31,
+      "levels": {
+        "L1": {
+          "EN": 97.28,
+          "ZH": 39.18
+        },
+        "L2": {
+          "EN": 92.32,
+          "ZH": 23.54
+        },
+        "L3": {
+          "EN": 77.21,
+          "ZH": 18.22
+        }
+      }
+    },
+    {
+      "model": "GPT Image 1 [High]",
+      "access": "api-only",
+      "composite": 37.91,
+      "text_fidelity": 22.91,
+      "text_clarity": 60.01,
+      "spatial_quality": 52.2,
+      "scene_quality": 70.85,
+      "levels": {
+        "L1": {
+          "EN": 75.81,
+          "ZH": 30.49
+        },
+        "L2": {
+          "EN": 61.37,
+          "ZH": 12.79
+        },
+        "L3": {
+          "EN": 37.92,
+          "ZH": 9.06
+        }
+      }
+    }
+  ]
+}
