@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UltraText Bench — Dense text, across the whole scene</title>
+  <meta name="description" content="A bilingual benchmark for visual text rendering: 432 prompts, 24 real-world scene categories, and 24 evaluated model configurations. Explore the examples, results, and open benchmark materials.">
+  <meta name="theme-color" content="#f6f5ef">
+  <link rel="canonical" href="https://lins-lab.github.io/UltraText_Bench/">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="UltraText Bench">
+  <meta property="og:description" content="Can image generators get every text region right? 432 bilingual prompts. 24 scene categories. Explore the benchmark.">
+  <meta property="og:url" content="https://lins-lab.github.io/UltraText_Bench/">
+  <meta property="og:image" content="https://lins-lab.github.io/UltraText_Bench/assets/social-card.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-zh="跳至正文">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="UltraText Bench home"><span class="brand-mark" aria-hidden="true">Ut</span><span>UltraText <b>Bench</b></span></a>
+    <nav aria-label="Main navigation">
+      <a href="#benchmark" data-zh="基准设计">Benchmark</a>
+      <a href="#examples" data-zh="生成样例">Examples</a>
+      <a href="#leaderboard" data-zh="榜单">Leaderboard</a>
+    </nav>
+    <button id="language-toggle" class="language-toggle" type="button" aria-label="切换为中文">中文 <span aria-hidden="true">↗</span></button>
+  </header>
+
+  <main id="main">
+    <section class="hero wrap">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span><span data-zh="视觉文字生成基准 · 2026">VISUAL TEXT RENDERING · 2026</span></p>
+        <h1>UltraText<br><em>Bench.</em></h1>
+        <p class="hero-tagline" data-zh="从一个标题，走向整张图。">Beyond a perfect headline.</p>
+        <p class="hero-description" data-zh="一个面向密集文字生成的中英双语基准。考察长文本、多区域和真实场景中的准确性、清晰度与布局。">A bilingual benchmark for rendering long, dense text across an entire scene — with fidelity, clarity, and placement in view.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="https://arxiv.org/abs/2610.09823"><span data-zh="阅读论文">Read the paper</span><span aria-hidden="true">↗</span></a>
+          <a class="button secondary" href="https://github.com/LINs-lab/UltraText_Bench"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18 3 12l6-6m6 12 6-6-6-6M13 4l-2 16"/></svg>GitHub</a>
+        </div>
+        <a class="hf-link" href="https://huggingface.co/papers/2610.09823"><span aria-hidden="true">🤗</span><span data-zh="在 Hugging Face 讨论这篇论文">Join the discussion on Hugging Face</span><span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="hero-visual" aria-label="Selected English and Chinese L3 image examples">
+        <div class="visual-grid" aria-hidden="true"></div>
+        <figure class="paper-card newspaper"><img src="assets/newspaper.webp" width="1024" height="1024" alt="Generated English newspaper with dense columns of text"><figcaption>NEWSPAPER <span>EN / L3</span></figcaption></figure>
+        <figure class="paper-card menu"><img src="assets/menu.webp" width="1024" height="1024" alt="Generated Chinese restaurant menu with multiple text regions"><figcaption>MENU <span>ZH / L3</span></figcaption></figure>
+        <figure class="paper-card poster"><img src="assets/poster.webp" width="1024" height="1024" alt="Generated Chinese poster with detailed text and layout"><figcaption>POSTER <span>ZH / L3</span></figcaption></figure>
+        <span class="visual-stamp" data-zh="真实场景，多处文字。">REAL SCENES.<br>MANY WORDS.</span>
+      </div>
+      <p class="hero-note" data-zh="图中为 GPT Image 2（Low）的部分 L3 生成样例；用于展示任务，不代表人工判定全部正确。">Selected L3 outputs from GPT Image 2 (Low). Illustrations of the task, not human correctness labels.</p>
+    </section>
+
+    <div class="stats wrap" aria-label="Benchmark statistics">
+      <div><strong>432</strong><span data-zh="中英文提示词">bilingual prompts</span></div>
+      <div><strong>24</strong><span data-zh="真实场景类别">scene categories</span></div>
+      <div><strong>3</strong><span data-zh="任务难度等级">difficulty levels</span></div>
+      <div><strong>2,926</strong><span data-zh="标注文字区域">annotated regions</span></div>
+    </div>
+
+    <section id="benchmark" class="section wrap benchmark-section">
+      <div class="section-intro">
+        <p class="eyebrow" data-zh="01 / 为什么需要这个基准">01 / THE BENCHMARK</p>
+        <h2 data-zh="整张图的文字，\n都值得认真检查。">Every region<br>deserves a closer look.</h2>
+        <p data-zh="一个正确的店名，可能与缺失的正文、写错的价格或位置不对的说明同时出现。UltraText Bench 把这些文字放回完整场景，考察模型能否持续保留所要求的内容。">A correct shop name can coexist with missing body text, wrong prices, or misplaced labels. UltraText Bench examines whether the requested content survives across the whole scene.</p>
+        <a class="text-link" href="https://github.com/LINs-lab/UltraText_Bench/tree/main/data"><span data-zh="浏览完整数据集">Explore the dataset</span><span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="benchmark-details">
+        <article><span class="detail-number">01</span><div><h3 data-zh="长文本与多区域">Long text. Multiple regions.</h3><p data-zh="每条提示词对应 4–12 个文字区域。英文目标文本最长达 5,230 个字符，涵盖招牌、报纸、菜单、网页、代码等 24 类场景。">Each prompt specifies 4–12 text regions. English targets reach 5,230 characters, across signs, newspapers, menus, webpages, code, and more.</p></div></article>
+        <article><span class="detail-number">02</span><div><h3 data-zh="中英双语，三个难度">Two languages. Three levels.</h3><p data-zh="英文与中文各 216 条提示词，覆盖 L1、L2、L3。各等级包含不同内容与负载，不是对同一提示词单独改变长度的受控实验。">216 prompts each in English and Chinese span L1, L2, and L3. Levels contain different prompts and workloads; they are not controlled length edits of the same prompt.</p></div></article>
+        <article><span class="detail-number">03</span><div><h3 data-zh="完整参考，分维度评估">Complete references. Distinct dimensions.</h3><p data-zh="生成模型接收包含全部目标文字的提示词。Q-Judger 使用完整的文字、位置和视觉属性参考，给出图像级评分。">The generator receives a prompt containing all target strings. Q-Judger uses the complete text, position, and visual-attribute reference to assess each image.</p></div></article>
+      </div>
+    </section>
+
+    <section class="dimension-band">
+      <div class="wrap dimension-grid">
+        <div><span class="metric-index">01 / 60%</span><h3 data-zh="文字保真度">Text fidelity</h3><p data-zh="要求的内容是否准确、完整">Correctness and completeness</p></div>
+        <div><span class="metric-index">02 / 30%</span><h3 data-zh="文字清晰度">Text clarity</h3><p data-zh="文字是否清晰可读">Readability and legibility</p></div>
+        <div><span class="metric-index">03 / 5%</span><h3 data-zh="空间质量">Spatial quality</h3><p data-zh="位置与布局是否合理">Position and layout</p></div>
+        <div><span class="metric-index">04 / 5%</span><h3 data-zh="场景质量">Scene quality</h3><p data-zh="文字是否融入承载它的场景">Integration with the scene</p></div>
+      </div>
+    </section>
+
+    <section id="examples" class="section wrap">
+      <div class="section-heading"><div><p class="eyebrow" data-zh="02 / 看看这些任务">02 / THE SCENES</p><h2 data-zh="文字，出现在各种场景里。">Text lives everywhere.</h2></div><p data-zh="点击放大。以下是论文中 GPT Image 2（Low）的部分 L3 输出，用于展示场景与文字负载。">Click to inspect selected L3 outputs from GPT Image 2 (Low), reproduced from the paper.</p></div>
+      <div class="gallery">
+        <button class="gallery-item" data-image="assets/newspaper.webp" data-title-en="Newspaper · English · L3" data-title-zh="报纸 · 英文 · L3"><span class="image-frame"><img src="assets/newspaper.webp" width="1024" height="1024" loading="lazy" alt="English newspaper generation example"><span class="expand-mark" aria-hidden="true">↗</span></span><span class="gallery-label"><strong data-zh="报纸">Newspaper</strong><span>EN / L3</span></span></button>
+        <button class="gallery-item" data-image="assets/menu.webp" data-title-en="Menu · Chinese · L3" data-title-zh="菜单 · 中文 · L3"><span class="image-frame"><img src="assets/menu.webp" width="1024" height="1024" loading="lazy" alt="Chinese menu generation example"><span class="expand-mark" aria-hidden="true">↗</span></span><span class="gallery-label"><strong data-zh="菜单">Menu</strong><span>ZH / L3</span></span></button>
+        <button class="gallery-item" data-image="assets/code.webp" data-title-en="Code · English · L3" data-title-zh="代码 · 英文 · L3"><span class="image-frame"><img src="assets/code.webp" width="1024" height="1024" loading="lazy" alt="English code generation example"><span class="expand-mark" aria-hidden="true">↗</span></span><span class="gallery-label"><strong data-zh="代码">Code</strong><span>EN / L3</span></span></button>
+        <button class="gallery-item" data-image="assets/poster.webp" data-title-en="Poster · Chinese · L3" data-title-zh="海报 · 中文 · L3"><span class="image-frame"><img src="assets/poster.webp" width="1024" height="1024" loading="lazy" alt="Chinese poster generation example"><span class="expand-mark" aria-hidden="true">↗</span></span><span class="gallery-label"><strong data-zh="海报">Poster</strong><span>ZH / L3</span></span></button>
+        <button class="gallery-item" data-image="assets/receipt.webp" data-title-en="Receipt · English · L3" data-title-zh="收据 · 英文 · L3"><span class="image-frame"><img src="assets/receipt.webp" width="1024" height="1024" loading="lazy" alt="English receipt generation example"><span class="expand-mark" aria-hidden="true">↗</span></span><span class="gallery-label"><strong data-zh="收据">Receipt</strong><span>EN / L3</span></span></button>
+        <button class="gallery-item" data-image="assets/comic.webp" data-title-en="Comic · Chinese · L3" data-title-zh="漫画 · 中文 · L3"><span class="image-frame"><img src="assets/comic.webp" width="1024" height="1024" loading="lazy" alt="Chinese comic generation example"><span class="expand-mark" aria-hidden="true">↗</span></span><span class="gallery-label"><strong data-zh="漫画">Comic</strong><span>ZH / L3</span></span></button>
+      </div>
+      <p class="small-note" data-zh="生成样例不等于人工正确性标签。更多例图与局部错误分析请见论文。">Generated examples are not human correctness labels. The paper includes additional images and local error analysis.</p>
+    </section>
+
+    <section class="findings-section">
+      <div class="section wrap">
+        <p class="eyebrow" data-zh="03 / 实验观察">03 / SELECTED FINDINGS</p>
+        <h2 data-zh="清楚可读，还要忠于内容。">Readable is only part of the story.</h2>
+        <div class="findings-grid">
+          <article class="finding"><p class="model-label">Z-Image-Turbo</p><h3 data-zh="清晰度与保真度可以相差很大。">Clarity and fidelity can diverge.</h3><div class="bar-row"><span data-zh="清晰度">Clarity</span><div class="bar-track"><div class="bar-fill" style="width:__Z_CLARITY__%"></div></div><b>__Z_CLARITY__</b></div><div class="bar-row"><span data-zh="保真度">Fidelity</span><div class="bar-track"><div class="bar-fill muted" style="width:__Z_FIDELITY__%"></div></div><b>__Z_FIDELITY__</b></div><p data-zh="字看起来清楚，并不保证所要求的文字内容被准确保留。">Clear-looking text can still differ from the content requested in the prompt.</p></article>
+          <article class="finding"><p class="model-label">Qwen-Image-2512 · EN</p><h3 data-zh="高负载场景暴露更多困难。">Higher workloads expose weaknesses.</h3><div class="score-change"><div><strong>__Q_L1__</strong><span data-zh="L1 综合评分">L1 composite</span></div><span class="change-arrow" aria-hidden="true">↘</span><div><strong>__Q_L3__</strong><span data-zh="L3 综合评分">L3 composite</span></div></div><p data-zh="这里比较的是不同提示词组的描述性均分，不能将变化单独归因于文字长度。">These descriptive means compare different prompt groups; they do not isolate the effect of text length.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="leaderboard" class="section wrap">
+      <div class="section-heading"><div><p class="eyebrow" data-zh="04 / 已报告结果">04 / REPORTED RESULTS</p><h2 data-zh="24 组模型配置。">24 model configurations.</h2></div><p data-zh="来自论文的完整榜单。点击列标题排序，或按模型类型与语言筛选。">The complete reported leaderboard. Sort a column, search a model, or explore results by language.</p></div>
+      <div class="leaderboard-controls">
+        <div class="segmented" role="group" aria-label="Model access">
+          <button type="button" data-access="all" aria-pressed="true" data-zh="全部模型">All models</button>
+          <button type="button" data-access="open-weight" aria-pressed="false" data-zh="开放权重">Open-weight</button>
+          <button type="button" data-access="api-only" aria-pressed="false" data-zh="API 模型">API-only</button>
+        </div>
+        <div class="table-inputs"><label class="sr-only" for="model-search" data-zh="搜索模型">Search models</label><input id="model-search" type="search" placeholder="Search models…" autocomplete="off"><label class="sr-only" for="score-view" data-zh="评分视图">Score view</label><select id="score-view"><option value="overall" data-zh="综合维度">Overall dimensions</option><option value="EN" data-zh="英文：各难度">English by level</option><option value="ZH" data-zh="中文：各难度">Chinese by level</option></select></div>
+      </div>
+      <div class="table-meta"><span id="result-count" aria-live="polite">24 configurations</span><span data-zh="评分 0–100 · 越高越好">RATINGS 0–100 · HIGHER IS BETTER</span></div>
+      <div class="table-scroll" tabindex="0" role="region" aria-label="Model leaderboard">
+        <table id="results-table"><caption class="sr-only" data-zh="UltraText Bench 已报告模型评分">UltraText Bench reported model ratings</caption><thead><tr id="table-head">__TABLE_HEAD__</tr></thead><tbody id="table-body">__TABLE_ROWS__</tbody></table>
+      </div>
+      <p class="table-note" data-zh="综合评分权重为：保真度 60%、清晰度 30%、空间质量 5%、场景质量 5%。总体分数等权汇总中英文提示词宏平均。100 是评分量表的上限，不是经测量的字符正确率。Low / High 表示 API 质量设置。">Composite weights: 60% fidelity, 30% clarity, 5% spatial, and 5% scene quality. Overall results equally average EN/ZH prompt-macro means. A score of 100 is the rubric ceiling, not a measured character-correctness percentage. Low / High denote API quality settings.</p>
+      <div class="table-links"><a class="text-link" href="data/leaderboard.json"><span data-zh="下载榜单 JSON">Download results JSON</span><span aria-hidden="true">↗</span></a><a class="text-link" href="https://github.com/LINs-lab/UltraText_Bench/blob/main/docs/release.md"><span data-zh="评测范围与复现说明">Evaluation scope &amp; reproducibility</span><span aria-hidden="true">↗</span></a></div>
+      <noscript><p>JavaScript is optional for reading the full table. Enable it to filter, change language, or sort results.</p></noscript>
+    </section>
+
+    <section class="get-started"><div class="wrap get-started-inner"><div><p class="eyebrow" data-zh="把你的模型也放进真实场景">PUT YOUR MODEL TO THE TEST</p><h2 data-zh="它能把整张图都写好吗？">Can it get the whole scene right?</h2><p data-zh="数据、评测代码和榜单现已公开，欢迎试用与反馈。">The benchmark materials, evaluation code, and reported results are available now.</p></div><a class="button primary" href="https://github.com/LINs-lab/UltraText_Bench#quick-start"><span data-zh="开始评测">Get started</span><span aria-hidden="true">↗</span></a></div><div class="wrap download-links"><a href="https://raw.githubusercontent.com/LINs-lab/UltraText_Bench/main/data/en_prompts.jsonl" data-zh="英文提示词 ↗">English prompts ↗</a><a href="https://raw.githubusercontent.com/LINs-lab/UltraText_Bench/main/data/zh_prompts.jsonl" data-zh="中文提示词 ↗">Chinese prompts ↗</a><a href="https://huggingface.co/papers/2610.09823" data-zh="🤗 Hugging Face 讨论 ↗">🤗 Hugging Face discussion ↗</a></div></section>
+
+    <section id="citation" class="section wrap citation-section"><div class="section-heading"><div><p class="eyebrow" data-zh="05 / 引用论文">05 / CITE THE WORK</p><h2 data-zh="用于你的下一篇论文。">For your next paper.</h2></div><button id="copy-citation" class="button secondary" type="button" data-zh="复制 BibTeX">Copy BibTeX</button></div><pre><code id="citation-text">__CITATION__</code></pre><p id="copy-status" class="small-note" role="status" aria-live="polite"></p></section>
+
+    <section class="authors wrap"><p class="eyebrow" data-zh="作者">THE TEAM</p><p class="author-list">Deyuan Liu<sup>1,†</sup> · Yihao Hu<sup>1,2,†</sup> · Jingxuan Zhang<sup>1,†</sup> · Xingying Li<sup>1,†</sup> · Jun Xie<sup>1,3,4,†</sup> · Jiacheng Liu<sup>8</sup> · Jungang Li<sup>5</sup> · Yu Huang<sup>9</sup> · Xuanyi Liu<sup>10</sup> · Yue Ding<sup>6</sup> · Zecheng Wang<sup>7</sup> · Lei Zhao<sup>1</sup> · Mingda Wang<sup>1</sup> · Zhenglin Cheng<sup>1,3,4</sup> · Peng Sun<sup>1,3</sup> · Tao Lin<sup>1,*</sup></p><p class="affiliations"><sup>1</sup>Westlake University · <sup>2</sup>Ant Group · <sup>3</sup>Zhejiang University · <sup>4</sup>Shanghai Innovation Institute · <sup>5</sup>HKUST · <sup>6</sup>CASIA · <sup>7</sup>Wechat AI · <sup>8</sup>MBZUAI · <sup>9</sup>CityU · <sup>10</sup>Peking University</p><p class="small-note" data-zh="† 共同贡献 · * 通讯作者">† Equal contribution · * Corresponding author</p></section>
+  </main>
+  <footer class="wrap"><a class="brand" href="#"><span class="brand-mark" aria-hidden="true">Ut</span>UltraText Bench</a><span>2026 · <a href="https://arxiv.org/abs/2610.09823">arXiv:2610.09823</a></span><a href="https://github.com/LINs-lab/UltraText_Bench" data-zh="代码与数据 ↗">Code &amp; data ↗</a></footer>
+
+  <dialog id="image-dialog" aria-labelledby="image-title"><button id="close-image" type="button" aria-label="Close image">×</button><img id="large-image" alt=""><p id="image-title"></p></dialog>
+  <script id="leaderboard-data" type="application/json">__LEADERBOARD_DATA__</script>
+</body>
+</html>
