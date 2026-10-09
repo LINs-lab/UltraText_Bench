@@ -324,15 +324,29 @@ build/                        Dataset audit snapshots, not model evaluation resu
 
 ## Citation
 
+## Citation
+
+Our visual text rendering benchmarks cover both video generation ([VTR-Bench](https://github.com/hardenyu21/VTR-Bench), [paper](https://arxiv.org/abs/2610.01499)) and image generation ([UltraText Bench](https://github.com/LINs-lab/UltraText_Bench), [paper](https://arxiv.org/abs/2610.09823)). If you use either benchmark, please cite the corresponding work:
+
 ```bibtex
-@misc{liu2026ultratextbenchcomprehensivebilingual,
+@misc{vtrbench2026,
+  title={VTR-Bench: A Systematic Benchmark for Evaluating Visual Text Rendering in Video Generation},
+  author={Yu Huang and Jungang Li and Zhiyuan Wang and Yonghua Hei and Song Dai and Jiayu Yang and Deyuan Liu and Xiang Zheng and Xiaoshuang Shi and Hao Cheng and Kaidi Xu},
+  year={2026},
+  eprint={2610.01499},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV},
+  url={https://arxiv.org/abs/2610.01499}
+}
+
+@misc{ultratextbench2026,
   title={UltraText Bench: A Comprehensive Bilingual Benchmark for Evaluating Visual Text Rendering in Image Generation},
   author={Deyuan Liu and Yihao Hu and Jingxuan Zhang and Xingying Li and Jun Xie and Jiacheng Liu and Jungang Li and Yu Huang and Xuanyi Liu and Yue Ding and Zecheng Wang and Lei Zhao and Mingda Wang and Zhenglin Cheng and Peng Sun and Tao Lin},
   year={2026},
   eprint={2610.09823},
   archivePrefix={arXiv},
   primaryClass={cs.CV},
-  url={https://arxiv.org/abs/2610.09823},
+  url={https://arxiv.org/abs/2610.09823}
 }
 ```
 
