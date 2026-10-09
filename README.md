@@ -324,8 +324,6 @@ build/                        Dataset audit snapshots, not model evaluation resu
 
 ## Citation
 
-## Citation
-
 Our visual text rendering benchmarks cover both video generation ([VTR-Bench](https://github.com/hardenyu21/VTR-Bench), [paper](https://arxiv.org/abs/2610.01499)) and image generation ([UltraText Bench](https://github.com/LINs-lab/UltraText_Bench), [paper](https://arxiv.org/abs/2610.09823)). If you use either benchmark, please cite the corresponding work:
 
 ```bibtex
