@@ -327,24 +327,17 @@ build/                        Dataset audit snapshots, not model evaluation resu
 Our visual text rendering benchmarks cover both video generation ([VTR-Bench](https://github.com/hardenyu21/VTR-Bench), [paper](https://arxiv.org/abs/2610.01499)) and image generation ([UltraText Bench](https://github.com/LINs-lab/UltraText_Bench), [paper](https://arxiv.org/abs/2610.09823)). If you use either benchmark, please cite the corresponding work:
 
 ```bibtex
-@misc{vtrbench2026,
+@article{huang2026vtr,
   title={VTR-Bench: A Systematic Benchmark for Evaluating Visual Text Rendering in Video Generation},
-  author={Yu Huang and Jungang Li and Zhiyuan Wang and Yonghua Hei and Song Dai and Jiayu Yang and Deyuan Liu and Xiang Zheng and Xiaoshuang Shi and Hao Cheng and Kaidi Xu},
-  year={2026},
-  eprint={2610.01499},
-  archivePrefix={arXiv},
-  primaryClass={cs.CV},
-  url={https://arxiv.org/abs/2610.01499}
+  author={Huang, Yu and Li, Jungang and Wang, Zhiyuan and Hei, Yonghua and Dai, Song and Yang, Jiayu and Liu, Deyuan and Zheng, Xiang and Shi, Xiaoshuang and Cheng, Hao and others},
+  journal={arXiv preprint arXiv:2610.01499},
+  year={2026}
 }
-
-@misc{ultratextbench2026,
+@article{liu2026ultratext,
   title={UltraText Bench: A Comprehensive Bilingual Benchmark for Evaluating Visual Text Rendering in Image Generation},
-  author={Deyuan Liu and Yihao Hu and Jingxuan Zhang and Xingying Li and Jun Xie and Jiacheng Liu and Jungang Li and Yu Huang and Xuanyi Liu and Yue Ding and Zecheng Wang and Lei Zhao and Mingda Wang and Zhenglin Cheng and Peng Sun and Tao Lin},
-  year={2026},
-  eprint={2610.09823},
-  archivePrefix={arXiv},
-  primaryClass={cs.CV},
-  url={https://arxiv.org/abs/2610.09823}
+  author={Liu, Deyuan and Hu, Yihao and Zhang, Jingxuan and Li, Xingying and Xie, Jun and Liu, Jiacheng and Li, Jungang and Huang, Yu and Liu, Xuanyi and Ding, Yue and others},
+  journal={arXiv preprint arXiv:2610.09823},
+  year={2026}
 }
 ```
 
